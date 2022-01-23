@@ -1,0 +1,59 @@
+extends ./../includes/layout.pug
+
+mixin pic(name, ext)
+	picture
+		source(srcset=`img/svg/${name}.svg`, type="image/svg")
+		img(src=`img/${name}.${ext}`)
+
+block metatags
+	title Actívate
+	meta(name="description", content=description)
+block content
+	nav.navbar
+		.navbar__logo
+			img.logo(src='img/logo.png' alt='')
+			.fondo__logo
+		.navbar__boton-contenedor
+			button#actPopup.navbar__boton
+				span.navbar__boton__figura-contenedor
+					svg.navbar__boton__figura(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 13.24 31.72' height='55%')
+						defs
+							style.
+								.Graphic-Style-784{fill: #fff;}
+							
+						g#Capa_2(data-name='Capa 2')
+							g#Pop_up(data-name='Pop up')
+								g#Logo_y_botones(data-name='Logo y botones')
+									path.Graphic-Style-784(d='M11.24,9.4,6.45,26a9,9,0,0,0-.38,1.89.72.72,0,0,0,.2.46.58.58,0,0,0,.44.24,1.15,1.15,0,0,0,.78-.35A13.64,13.64,0,0,0,10,25.1l.81.47q-3.54,6.15-7.52,6.15A3.35,3.35,0,0,1,.9,30.87,2.87,2.87,0,0,1,0,28.7a7.93,7.93,0,0,1,.41-2.2L3.66,15.32a9.52,9.52,0,0,0,.46-2.41A1.22,1.22,0,0,0,3.67,12a1.73,1.73,0,0,0-1.2-.41l-.84,0,.29-.93L9.84,9.4ZM9.78,0a3.32,3.32,0,0,1,2.46,1,3.33,3.33,0,0,1,1,2.44,3.28,3.28,0,0,1-1,2.42,3.33,3.33,0,0,1-2.44,1,3.26,3.26,0,0,1-2.39-1,3.3,3.3,0,0,1-1-2.42A3.39,3.39,0,0,1,7.37,1,3.24,3.24,0,0,1,9.78,0Z')
+			a.navbar__boton_link(href="#/portada")
+				img.navbar__boton_img(src="./img/svg/listButton.svg")
+	main.main(role="main")#rootDashboard
+	#popupHowToFunction.howToFunction-container
+		.howToFunction-content
+			a(href="#")#linkHowToFunction.howToFunction-content_link X
+			.howToFunction-content_info
+				p.howToFunction-content_info-title ¿Cómo Funciona?
+				p.howToFunction-content_info-description Durante este módulo encontrarás los siguientes botones:
+				.howToFunction-content_info-items
+					.howToFunction-content_info-items_item
+						+pic("prevButton", "png")
+						p.howToFunction-content_info-items_item-title ATRÁS
+						p.howToFunction-content_info-items_item-description Con este botón podrás retroceder y reforzar tu conocimientos.
+					.howToFunction-content_info-items_item
+						+pic("nextButton", "png")
+						p.howToFunction-content_info-items_item-title ADELANTE
+						p.howToFunction-content_info-items_item-description Con este botón podrás saltar al siguiente tema y seguir aprendiendo.
+					.howToFunction-content_info-items_item
+						+pic("soundButton", "png")
+						p.howToFunction-content_info-items_item-title AUDIO
+						p.howToFunction-content_info-items_item-description Con este botón podrás pausar la voz explicativa y continuar con la lectura.
+					.howToFunction-content_info-items_item
+						+pic("listButton", "png")
+						p.howToFunction-content_info-items_item-title MENÚ
+						p.howToFunction-content_info-items_item-description Con este botón podrás pausar la voz explicativa y continuar con la lectura.
+	.navigation-bottom
+		.navigation-bottom_content
+			a#prevPresentation.navigation-bottom_link(href="#/")
+				img.navigation-bottom_link-img(src="./img/svg/prevButton.svg")
+			a#nextPresentation.navigation-bottom_link(href="#/")
+				img.navigation-bottom_link-img(src="./img/svg/nextButton.svg")
