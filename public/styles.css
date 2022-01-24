@@ -836,10 +836,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  /* align-items: center; */ }
   @media screen and (max-width: 1399px) {
     .conoceExtremidades-content {
       width: 90%; } }
+  
   .conoceExtremidades-content_graphic {
     flex: 0 0 42%;
     z-index: -2; }
@@ -848,7 +849,9 @@ body {
       top: -40px;
       z-index: 5; }
   .conoceExtremidades-content_description {
-    flex: 0 0 42%; }
+    flex: 0 0 42%; 
+    margin-top: 6vh;
+  }
     .conoceExtremidades-content_description-title {
       font-size: 2.2rem;
       font-family: 'DINPro Black';
@@ -894,7 +897,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  /* align-items: center;  */}
   .extremidadSuperior-content_graphic, .codExtremidadSuperior-content_graphic, .antebrazoExtremidadSuperior-content_graphic, .muniecaExtremidad-content_graphic, .cuidarExtremidades-content_graphic {
     flex: 0 0 50%;
     z-index: -2; }
@@ -903,11 +906,14 @@ body {
       top: -68px;
       z-index: 5; }
     .extremidadSuperior-content_graphic--width, .codExtremidadSuperior-content_graphic--width, .antebrazoExtremidadSuperior-content_graphic--width, .muniecaExtremidad-content_graphic--width, .cuidarExtremidades-content_graphic--width {
-      flex: 0 0 45%; }
+      flex: 0 0 45%;
+     }
       .extremidadSuperior-content_graphic--width img, .codExtremidadSuperior-content_graphic--width img, .antebrazoExtremidadSuperior-content_graphic--width img, .muniecaExtremidad-content_graphic--width img, .cuidarExtremidades-content_graphic--width img {
         top: 15px; }
   .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
-    flex: 0 0 42%; }
+    flex: 0 0 42%; 
+    margin-top: 6vw;
+  }
     .extremidadSuperior-content_description--width, .codExtremidadSuperior-content_description--width, .antebrazoExtremidadSuperior-content_description--width, .muniecaExtremidad-content_description--width, .cuidarExtremidades-content_description--width {
       flex: 0 0 55%; }
     .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title {
@@ -1075,14 +1081,18 @@ body {
       font-family: "DINPro Light";
       font-size: 1.6rem; }
 
-.activaExtremidadS_animation {
-  /*animation-name: slow;
-    animation-duration: 2s;*/ }
+/* .activaExtremidadS_animation {
+  animation-name: slow;
+    animation-duration: 2s; } */
 
 .antesDePracticar-img {
-  position: absolute;
+  /* position: absolute; */
   left: 30%;
   overflow: hidden; }
+
+  #antesDePracticar .antes-practicar-img2{
+    width: 32.05% !important;
+  }
 
 .relajaExtremidadesS-container {
   height: 100%;
@@ -1439,7 +1449,7 @@ body {
         font-family: 'DINPro light';
         color: #2d1e1b;
         font-size: 1.6rem;
-        margin-bottom: 8px; }
+        /* margin-bottom: 8px; */ }
         .bandaElastica-content_description-ul_li--text {
           margin-top: 1.2rem; }
     .bandaElastica-content_description-message {
@@ -1803,3 +1813,226 @@ body {
   background-position: right bottom, left 96%;
   background-size: 12.5%, 8%;
   height: 100%; }
+
+  .antebrazoExtremidadSuperior-content{
+    align-items: center;
+  }
+
+  .codExtremidadSuperior-content{
+    align-items: center;
+  }
+
+  .muniecaExtremidad-content{
+    align-items: center;
+  }
+
+  .activaExtremidadS-content{
+    align-items: center;
+  }
+
+  
+
+
+  @media screen and (max-width: 1400px) {
+    .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title {
+    font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-subTitle, .codExtremidadSuperior-content_description-subTitle, .antebrazoExtremidadSuperior-content_description-subTitle, .muniecaExtremidad-content_description-subTitle, .cuidarExtremidades-content_description-subTitle {
+      font-size: 1.3rem;  
+    }
+    .extremidadSuperior-content_description-list_item, .codExtremidadSuperior-content_description-list_item, .antebrazoExtremidadSuperior-content_description-list_item, .muniecaExtremidad-content_description-list_item, .cuidarExtremidades-content_description-list_item {
+      font-size: 1.2rem;  
+    }
+    .extremidadSuperior-content_description-text, .codExtremidadSuperior-content_description-text, .antebrazoExtremidadSuperior-content_description-text, .muniecaExtremidad-content_description-text, .cuidarExtremidades-content_description-text {
+      font-size: 1.2rem;  
+    }
+    .extremidadSuperior-content_description-square_text, .codExtremidadSuperior-content_description-square_text, .antebrazoExtremidadSuperior-content_description-square_text, .muniecaExtremidad-content_description-square_text, .cuidarExtremidades-content_description-square_text {
+      font-size: 1.1rem;  
+    }
+    .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
+      margin-top: 3vw;
+    }
+    .cuidarExtremidades-content_description-title {
+      font-size: 1.6rem;
+    }
+    .cuidarExtremidades-content_description p{
+      font-size: 1.4rem;
+    }
+    .cuidarExtremidades-content_description li{
+      font-size: 1.2rem;
+    }   
+   .activaExtremidadS-content_graphic > img{
+     width: 50%;
+   }
+   .activaExtremidadS-content_description .activaExtremidadS-content_description-title{
+      font-size: 2rem;
+   }
+   .activaExtremidadS-content_description .activaExtremidadS-content_description-subTitle{
+    font-size: 1.4rem;
+   }
+   .activaExtremidadS-content_description li{
+    font-size: 1.3rem;
+   }
+   .activaExtremidadS-content_description-square_text--bgAll {
+      font-size: 1.5rem; 
+    }
+    .activaExtremidadS-content_description-ul_li--text {
+      font-size: 1.4rem; 
+   }
+   .img-cuidar-extremidades{
+    flex: 0 0 39%;
+   }
+   .antesDePracticar-img{
+    width: 45% !important;
+  }
+  .womenExtremidades {
+    width: 55% !important;
+ }
+   .mueve-extremidades{
+      width: 33% !important;
+    }
+    .mueve-extremidades-codo{
+      width: 35% !important;
+    }
+    .brazos-atras{
+      width: 38% !important;
+    }
+    .codos-arriba{
+      width: 38% !important;
+    }
+    .relajaExtremidadesS-content_description-title {
+      font-size: 2.4rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-textSmall {
+      font-size: 1.5rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice {
+      width: 120%;
+    }
+    .bandaElastica-content_description {
+      flex: 0 1 54%;
+      align-self: flex-start;
+    }
+    #bandaElastica{
+      flex: 0 1 27%;
+    }
+    /* #bandaElastica img{
+      width: 50% !important;
+    } */
+    #bandaElastica img.graphic-presentation{
+      width: 75%;
+    }
+    #bandaElastica img.graphic-presentation-2{
+      width: 82%;
+    }
+    .bandaElastica-content_description .bandaElastica-content_description-excersice_title{
+      font-size: 1.4rem;
+    }
+    .bandaElastica-content_description li{
+      font-size: 1.4rem;
+    }
+    .enTrabajoPage7 ul {
+      margin: 1rem 0;
+    }
+    .antes-practicar-img{
+      width: 42% !important;
+    }
+		.antes-practicar-img2{
+      width: 27% !important;
+    }
+  }
+
+  @media screen and (min-width: 1700px) {
+    .conoceExtremidades-content_description-title {
+      font-size: 2.5rem;
+    }
+    .conoceExtremidades-content_description-text {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title { 
+      font-size: 2.5rem;
+    }
+    .extremidadSuperior-content_description-list_item, .codExtremidadSuperior-content_description-list_item, .antebrazoExtremidadSuperior-content_description-list_item, .muniecaExtremidad-content_description-list_item, .cuidarExtremidades-content_description-list_item {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-text, .codExtremidadSuperior-content_description-text, .antebrazoExtremidadSuperior-content_description-text, .muniecaExtremidad-content_description-text, .cuidarExtremidades-content_description-text {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-square_text, .codExtremidadSuperior-content_description-square_text, .antebrazoExtremidadSuperior-content_description-square_text, .muniecaExtremidad-content_description-square_text, .cuidarExtremidades-content_description-square_text {
+      font-size: 1.5rem;
+    }
+    .extremidadSuperior-content_graphic-antebrazo {
+      width: 38%;
+    }
+    .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
+      margin-top: 3vw;
+    }
+    .relajaExtremidadesS-content_description-title {
+      font-size: 2.6rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-textSmall {
+      font-size: 1.7rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice{
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice p{
+      font-size: 2rem;
+    }
+    .relajaExtremidadesS-content_description-excersice li{
+      font-size: 1.9rem;
+    }
+    .relajaExtremidadesS-content_description-excersice_square p{
+      width: 100%;
+    }
+    .ejercitaExtremidades-content_description, .eligeGoma-content_description, .mantenMovimientos-content_description {
+      flex: 0 1 57%;
+      margin-left: -6vw;
+    }
+    .ejercitaExtremidades-content_description-text, .eligeGoma-content_description-text, .mantenMovimientos-content_description-text {
+      font-size: 1.8rem;
+    }
+    .activaExtremidadS-content_description {
+      margin-left: 4vw;
+    }
+    .bandaElastica-content_description {
+      flex: 0 1 70%;
+      margin-left: 10vw;
+    }
+    .bandaElastica-content_graphic img.graphic-presentation{
+      width: 90%;
+    }
+    .bandaElastica-content_graphic img.graphic-presentation-2{
+      width: 97%;
+    }
+    .bandaElastica-content_graphic {
+      flex: 0 1 70%;
+    }
+    .ejercitaExtremidades-content_graphic, .eligeGoma-content_graphic, .mantenMovimientos-content_graphic {
+      flex: 0 1 73%;
+      margin-right: -12vw;
+    }
+    #bandaElastica{
+      flex: 0 1 36%;
+    }   
+  }
+
+
+   /*  @media screen and (max-width: 1260px) {
+      .cuidarExtremidades-content_description-title {
+        font-size: 1.5rem;
+      }
+      .cuidarExtremidades-content_description p{
+        font-size: 1.3rem;
+      }
+      .cuidarExtremidades-content_description li{
+        font-size: 1rem;
+      }
+
+    } */
+
+    

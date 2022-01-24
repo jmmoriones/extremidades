@@ -5,7 +5,7 @@ export default () => {
 				<a href="#" id="audioQueEsActivate" class="activaExtremidadS-content_graphic-audio animate__animated animate__fadeIn animate__delay-1s">
 					<img src="img/svg/soundButton2.svg" />
 				</a>
-				<img src="img/svg/menCodosArriba.svg" class="animate__animated animate__backInLeft animate__delay-1s" />
+				<img src="img/svg/menCodosArriba.svg" class="codos-arriba animate__animated animate__backInLeft animate__delay-1s" />
 			</div>
 			<div class="activaExtremidadS-content_description">
 				<p class="activaExtremidadS-content_description-title activaExtremidadS-content_description-title--bottomP5 animate__animated animate__backInRight animate__delay-2s">MUEVE TUS EXTREMIDADES SUPERIORES</p>
