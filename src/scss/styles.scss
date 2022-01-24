@@ -1,0 +1,1838 @@
+@import "normalize";
+@import "animation";
+@import "base/base";
+
+@import url("http://fonts.cdnfonts.com/css/din-pro");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DINPro Regular", sans-serif;
+}
+html{height: 100%;position: relative;}
+body {
+  background: #cddefc46;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  //height: 95px;
+  flex: 0 0 12%;
+  margin-bottom: 2.5rem;
+  &__boton{
+    &_link{
+      text-align: right;
+      margin-left: 15px;
+      display: flex;
+      width: 50px;
+      height: 50px;
+    }
+    &_img{
+      width: 100%;
+    }
+  }
+  @at-root &__logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 292px;
+    height: 100%;
+
+    @at-root .logo {
+      position: absolute;
+      width: 60%;
+      margin-top: 18px;
+      z-index: 2;
+    }
+
+    @at-root .fondo__logo {
+      position: absolute;
+      height: 120%;
+      width: 128%;
+      top: -10%;
+      left: -20%;
+      transform: skewX(-15deg) rotateZ(-2deg);
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 2px 2px 10px darkgrey;
+    }
+  }
+
+  @at-root &__boton-contenedor {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 2rem;
+
+    @at-root .navbar__boton {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      background: linear-gradient(130deg, rgb(184, 184, 184), #fff);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+
+      @at-root .navbar__boton__figura-contenedor {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+        background: linear-gradient(130deg, #4f80ff, #157bb5);
+        border-radius: 50%;
+
+        @at-root .navbar__boton__figura {
+          filter: drop-shadow(2px 2px 0px #00000021);
+        }
+      }
+    }
+  }
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  /*height: 100%;
+  margin-top: 2rem;*/
+  flex: 0 1 88%;
+
+  @at-root .principal__grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+
+    @at-root &__child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0px 10px;
+
+      @at-root &:nth-child(1) {
+        justify-content: flex-end;
+
+        @at-root .opcion__menu {
+          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          width: 100%;
+          max-width: 511px;
+          padding: 15px 0px;
+          margin-top: 15px;
+          text-decoration: none;
+          background: #157bb5;
+          border-radius: 100px;
+          box-shadow: inset 0px 0px 5px 1px #ffffff8c;
+          overflow: hidden;
+
+          &:hover {
+            background: #0a5e8f;
+          }
+
+          @at-root &__imagen-contenedor {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            width: 11%;
+            height: 100%;
+            // padding-left: 40px;
+
+            @at-root .opcion__menu__imagen {
+              position: absolute;
+              height: 211%;
+            }
+          }
+
+          @at-root .opcion__menu__text {
+            font-size: 16px;
+            text-align: left;
+            color: #fff;
+            margin-left: 20px;
+          }
+        }
+      }
+
+      @at-root &:nth-child(2) {
+        margin-top: 30px;
+        @at-root .principal__figura {
+          width: 70%;
+
+          @at-root .ojo {
+            animation: parpadeo 2s linear infinite;
+            transform-origin: center;
+            transform-box: fill-box;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    transform: scaleY(1);
+  }
+
+  45% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(0);
+  }
+
+  55% {
+    transform: scaleY(1);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.contenedor__navegacion {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  @at-root .boton__navegacion {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    background: linear-gradient(130deg, rgb(184, 184, 184), rgb(255, 255, 255));
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      &::before {
+        background: linear-gradient(130deg, #4f80ff, #157bb5);
+      }
+
+      .boton__navegacion__figura-contenedor {
+        background: linear-gradient(130deg, #4f80ff, #157bb5);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      display: flex;
+      width: 80%;
+      height: 80%;
+      background: linear-gradient(130deg, #f67950, #f15a29);
+      border-radius: 50%;
+    }
+
+    @at-root .boton__navegacion__figura-contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 70%;
+      background: linear-gradient(45deg, #f67950, #f15a29);
+      border-radius: 50%;
+      z-index: 2;
+
+      @at-root .boton__navegacion__figura {
+        width: 50%;
+        filter: drop-shadow(1px 1px 0px #00000096);
+      }
+    }
+
+    &:nth-child(1) {
+      .boton__navegacion__figura-contenedor {
+        .boton__navegacion__figura {
+          transform: rotateZ(180deg);
+          filter: drop-shadow(-1px -1px 0px #00000096);
+        }
+      }
+    }
+  }
+}
+.howToFunction{
+  &-container{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    background-color: #21212199;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  &-content{
+    background-color: #FFF;
+    background-image: url(img/svg/circleAdmiration.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -130px center;
+    width: 90%;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-bottom: 7rem;
+    &_link{
+      float: right;
+      font-size: 1.3rem;
+      color: #cb0404;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    &_info{
+      text-align: center;
+      max-width: 1024px;
+      margin: 0 auto;
+      margin-top: 4rem;
+      &-title{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #4280b7;
+        font-family: "DINPro Bold";
+      }
+      &-description{
+        font-size: 1.5rem;
+        font-family: 'DINPro light';
+      }
+      &-items{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        &_item{
+          & picture img{
+            max-width: 120px;
+          }
+          &-title{
+            font-size: 1.5rem;
+            margin: 1.2rem 0;
+            color: #1d1f1d;
+            font-family: 'DINPro Bold';
+          }
+          &-description{
+            font-size: 1.2rem;
+            font-family: 'DINPro light';
+          }
+          &:nth-child(2), &:nth-child(3){
+            margin: 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+.addAnimation{
+  display: flex;
+  animation: .5s opacity;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .principal__grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    // &__child {
+    //   margin-top: 0px;
+    // }
+
+    // &__child:nth-child(2) {
+    //   margin-top: 0px;
+
+    // }
+  }
+
+  .principal__figura {
+    width: 90%;
+  }
+
+  .principal__grid__child {
+    margin-top: 0px;
+  }
+
+  .opcion__menu {
+    margin-top: 30px;
+  }
+
+  .opcion__menu__text {
+    font-size: 14px;
+  }
+  .contenedor__navegacion {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .opcion__menu__text {
+    font-size: 18px;
+  }
+
+  .principal__figura {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1092px) {
+  .opcion__menu__text {
+    font-size: 25px;
+  }
+}
+
+.portada{
+  &-container{
+    height: 100vh;
+    background-image: url(./img/svg/fondoslide0.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-origin: content-box;
+  }
+  &-header{
+    background-color: #FFF;
+    box-shadow: 3px 3px 10px #21212152;
+    &_cnt{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+    }
+    &_logoLeft{
+      flex: 0 0 16%;
+      & img{ width: 100%;}
+    }
+    &_logoRight{
+      flex: 0 0 7%;
+      & img{ width: 100%;}
+    }
+  }
+  &-content{
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 7rem;
+    justify-content: center;
+    &_imgCenter{
+      width: 25%;
+    }
+    &_div1, &_div2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-left{
+        &_textLarge{
+          font-family: 'DINPro Black';
+          color: #FFF;
+          font-size: 8rem;
+        }
+        &_textSmall{
+          font-family: 'DINPro Medium';
+          color: #FFF;
+          font-size: 3rem;
+        }
+      }
+    }
+    &_div2{
+      margin-top: 0.5rem;
+      &-text{
+        font-size: 2.2rem;
+        color: #FFF;
+      }
+    }
+  }
+}
+.portada-content_div1-left_textLarge{text-align: left;}
+.portada-content_div2-left_textLarge{padding-left: 1rem;}
+
+.audio1Slide3{
+  visibility: hidden;
+  height: 0px;
+}
+
+.linkPrev{
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #898c95;
+  &:before{
+    content: "<";
+    padding-right: 7px;
+    font-size: 32px;
+  }
+  &:hover{
+    color:#da4a54;
+  }
+}
+.container-content_slide{
+  margin: auto;
+  max-width: 1400px;
+  @media screen and (max-width: 1399px){
+    width: 90%;
+  }
+}
+.queEsActivate{
+  &-container{
+    height: 100%;
+    background-image: url(img/svg/circleSVG2.svg);
+    background-repeat: no-repeat;
+    background-size: 82%;
+    background-position: right top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-content{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    overflow: hidden;
+    &_description{
+      flex: 0 0 50%;
+      &-title{
+        color: #4cb0d8;
+        font-family: 'DINPro Bold';
+        font-size: 2.3rem;
+        margin-bottom: 1.1rem;
+        animation-name: textFadeIn;
+        animation-duration: 2s;
+      }
+      &-text{
+        color: #1d1f1d;
+        font-size: 1.4rem;
+        margin-bottom: 18px;
+        text-align: justify;
+        font-family: 'DINPro Light';
+      }
+    }
+    &_graphic{
+      flex: 0 0 42%;
+      position: relative;
+      & img{
+        max-width: 100%;
+        animation-name: bottomToTop;
+        animation-duration: 1.5s;
+      }
+      &-audio{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10%;
+      }
+    }
+  }
+}
+.conoceExtremidades{
+  &-content{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 1399px){
+      width: 90%;
+    }
+    &_graphic{
+      flex: 0 0 42%;
+      z-index: -2;
+      & img{
+        position: relative;
+        top: -40px;
+        z-index: 5;
+      }
+    }
+    &_description{
+      flex: 0 0 42%;
+      &-title{
+        font-size: 2.2rem;
+        font-family: 'DINPro Black';
+        color: #da4a54;
+        margin-bottom: 1rem;
+      }
+      &-text{
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        text-align: justify;
+        font-family: 'DINPro Light';
+        letter-spacing: .1px;
+        color: #161616;
+      }
+      &-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        &_btn{
+          width: 46%;
+          border-radius: 30px;
+          border: 0;
+          cursor:pointer;
+          &:first-child{
+            background-color: #da4a54;
+          }
+          &:last-child{
+            background-color: #898c95; 
+          }
+          & img{
+            width: 22%;
+            float:left;
+          }
+          & span {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    &_bodyHumanCircle{
+      position: absolute;
+      bottom: -10px;
+      right: -12px;
+      width: 88%;
+    }
+  }
+}
+.extremidadSuperior, .codExtremidadSuperior, .antebrazoExtremidadSuperior, .muniecaExtremidad, .cuidarExtremidades{
+  &-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &_graphic{
+      flex: 0 0 50%;
+      z-index: -2;
+      & img{
+        position: relative;
+        top: -68px;
+        z-index: 5;
+      }
+      &--width{
+        flex: 0 0 45%;
+        & img{
+          top: 15px;
+        }
+      }
+    }
+    &_description{
+      flex: 0 0 42%;
+      &--width{
+        flex: 0 0 55%;
+      }
+      &-title{
+        font-size: 2.2rem;
+        font-family: 'DINPro Black';
+        color: #da4a54;
+        margin-bottom: 1rem;
+        &--blue{
+          color: #417ffc;
+          margin-bottom: 18px;
+          font-family: 'DINPro Bold';
+        }
+      }
+      &-subTitle{
+        font-family: 'DINPro Bold';
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+      }
+      &-list{
+        padding-left: 1.2rem;
+        &_item{
+          font-family: 'DINPro Light';
+          font-size: 1.4rem;
+          text-align: justify;
+          letter-spacing: .1px;
+          margin-bottom: 1px;
+          font-size: 1.4rem;
+          color: #161616;
+        }
+      }
+      &-text{
+        font-family: 'DINPro Light';
+        font-size: 1.4rem;
+        text-align: justify;
+        letter-spacing: .1px;
+        color: #161616;
+        &--align{
+          text-align: left;
+          font-size: 1.5rem;
+          margin-bottom: 18px;
+        }
+      }
+      &-square{
+        background-color: #da4a54;
+        padding: 0.7rem;
+        border-radius: 25px;
+        margin: 2.5rem 0;
+        &_text{
+          border: 1px solid #FFF;
+          padding: 0.9rem 26px;
+          border-radius: 25px;
+          text-align: center;
+          color: #FFF;
+          font-size: 1.3rem;
+        }
+      }
+      &-buttons{
+        display: flex;
+        justify-content: space-between;
+        &_btn{
+          width: 46%;
+          border-radius: 30px;
+          border: 0;
+          cursor:pointer;
+          &:first-child{
+            background-color: #da4a54;
+          }
+          &:last-child{
+            background-color: #898c95; 
+          }
+          & img{
+            width: 22%;
+            float:left;
+          }
+          & span {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+.cuidarExtremidades-content_description-list_item{font-size: 1.5rem;}
+.extremidadSuperior-content_graphic-hombro{width: 100%;}
+.extremidadSuperior-content_graphic-munieca{width: 50%;}
+.extremidadSuperior-content_graphic-antebrazo{width: 35%;}
+.extremidadSuperior-content_graphic-codo{width: 55%;}
+.extremidadSuperior-content_graphic, .codExtremidadSuperior-content_graphic, .antebrazoExtremidadSuperior-content_graphic, .muniecaExtremidad-content_graphic{
+  background-image: url(./img/svg/fondo-body.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+}
+.activaExtremidadS{
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    &_graphic{
+      background-image: url(img/svg/circle-transparent-lines.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      flex: 1 0 45%;
+      text-align: center;
+      position: relative;
+      text-align: center;
+      & img {
+        width: 70%;
+      }
+      &--page2 {
+        & img{
+          width: 50%;
+        }
+      }
+      &-audio{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10%;
+        & img{
+          width: 100%;
+        }
+      }
+    }
+    &_description{
+      flex: 1 0 50%;
+      &-title{
+        color: #f67950;
+        font-family: 'DINPro Bold';
+        font-size: 2.5rem;
+        &--bottomP5{
+          margin-bottom: 2rem;
+        }
+      }
+      &-subTitle{
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin: 1.2rem 0;
+        &--medium{
+          font-family: 'DINPro Medium';
+        }
+      }
+      &-ul{
+        padding-left: 2rem;
+        &_li{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+          &--text{
+            margin-top: 1.2rem;
+          }
+        }
+      }
+      &-square{
+        margin-top: 1.5rem;
+        box-sizing: content-box;
+        border-radius: 29px;
+        border: 7px solid #f67950;
+        &--bgAll{
+          background-color: #f67950;
+          padding: 8px;
+        }
+        &_text{
+          color: #f67950;
+          font-size: 1.35rem;
+          text-align: center;
+          padding: 1rem 80px;
+          font-family: 'DINPro Medium';
+          &--bgAll{
+            color: #fff;
+            font-size: 1.8rem;
+            padding: 1.4rem 80px;
+            border-radius: 29px;
+            font-family: 'DINPro Light';
+            border: 1px solid #FFF;
+          }
+        }
+      }
+      &-excersice{
+        &_title{
+          color: #d6512d;
+          font-family: "DINPro Bold";
+          font-size: 1.6rem;
+        }
+        &_text{
+          font-family: "DINPro Light";
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  &_animation{
+    /*animation-name: slow;
+    animation-duration: 2s;*/
+  }
+}
+.antesDePracticar-img{
+  position: absolute;
+  left: 30%;
+  overflow: hidden;
+}
+.relajaExtremidadesS{
+  &-container{
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    &_graphic{
+      flex: 0 1 40%;
+      text-align: center;
+      align-self: flex-end;
+      background-image: url(img/svg/circle-transparent-lines-blue.svg);
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: 100%;
+      position: relative;
+      & img.graphic-presentation {
+        width: 80%;
+        position: relative;
+        bottom: -9px;
+      }
+      &--changeStyle{
+        & img.graphic-presentation{
+          width: 55%;
+          top: -55px;
+        }
+      }
+      &--changeStyle2{
+        & img.graphic-presentation{
+          width: 60%;
+          top: 1rem;
+        }
+      }
+      &--changeStyle3{
+        & img.graphic-presentation{
+          width: 53%;
+          top: 1rem;
+        }
+      }
+      &--changeStyle4{
+        text-align: right;
+        & img.graphic-presentation{
+          width: 66%;
+          top: 1rem;
+        }
+      }
+      &--changeStyle5{
+        & img.graphic-presentation{
+          width: 60%;
+          top: 1rem;
+        }
+      }
+      &--changeStyle6{
+        text-align: right;
+        & img.graphic-presentation{
+          width: 75%;
+          bottom: 0rem;
+        }
+      }
+      &--changeStyle7{
+        text-align: right;
+        & img.graphic-presentation{
+          width: 75%;
+          position: relative;
+          bottom: -1rem;
+        }
+      }
+      &--changeStyle8{
+        & img.graphic-presentation{
+          width: 48%;
+          position: relative;
+          bottom: -1rem;
+        }
+      }
+      &-audio{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 12%;
+        & img{
+          width: 100%;
+        }
+      }
+    }
+    &_description{
+      flex: 0 1 38%;
+      &-title{
+        color: #156ab5;
+        font-family: 'DINPro Bold';
+        font-size: 2.5rem;
+      }
+      &-textSmall{
+        color: #2d1e1b;
+        font-size: 1.5rem;
+        margin: 1.4rem 0;
+      }
+      &-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        &_btn{
+          width: 46%;
+          border-radius: 30px;
+          border: 0;
+          cursor:pointer;
+          overflow: hidden;
+          &:first-child{
+            background-color: #0060cc;
+          }
+          &:last-child{
+            background-color: #898c95; 
+          }
+          & img{
+            width: 22%;
+            float:left;
+          }
+          & span {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.4rem;
+          }
+        }
+      }
+      &-excersice{
+        margin-top: 2rem;
+        &_title{
+          color: #000;
+          font-family: "DINPro Bold";
+          font-size: 1.6rem;
+        }
+        &_text{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+        }
+        &_square{
+          box-sizing: content-box;
+          border-radius: 29px;
+          &--bgAll{
+            background-color: #156ab5;
+            padding: 8px;
+            border: 0;
+            margin-top: 2rem;
+          }
+          &-text{
+            font-size: 1.35rem;
+            text-align: center;
+            padding: 1rem 80px;
+            &--bgAll{
+              color: #fff;
+              border-radius: 29px;
+              border: 1px solid #FFF;
+              font-size: 1.3rem;
+              text-align: center;
+              padding: 0.9rem 30px;
+              font-family: 'DINPro Regular';
+            }
+          }
+        }
+        &_message{
+          color: #95b1ac;
+          font-size: 2rem;
+          text-align: center;
+          padding:0 2rem;
+          margin-top: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+
+.ejercitaExtremidades, .eligeGoma, .mantenMovimientos{
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_description{
+      flex: 0 1 50%;
+      &-title{
+        color: #f67950;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem;
+      }
+      &-text{
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.4rem;
+        margin: 2rem 0;
+        text-align: justify;
+      }
+      &-message{
+        color: #a99d8d;
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 0 2rem;
+        margin-top: 1.5rem;
+        font-family: 'DINPro Bold';
+      }
+    }
+    &_graphic{
+      flex: 0 1 50%;
+      background-image: url("./img/svg/fondo-mujerBandaElastica.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 1rem;
+      background-position: center center;
+      & img {
+        width: 27%;
+        position: relative;
+        bottom: -55px;
+        left: 40%;
+        right: 0;
+      }
+    }
+  }
+}
+.ejercitaExtremidades, .eligeGoma{
+  &-content{
+    &_description{
+      &-title{
+      }
+      &-text{
+        margin-bottom: 0;
+        &:last-child{
+          margin-top: 0;
+        }
+      }
+      &-message{
+
+      }
+    }
+    &_graphic{
+      background-image: none;
+      & table{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.4rem;
+        border-spacing: 0px;
+        & thead tr th{
+          font-family: 'DINPro Bold';
+          padding: 0.5rem 0;
+          border-top: 1px solid #212121;
+          border-bottom: 1px solid #212121;
+        }
+        & tbody tr{
+          & td{
+            font-family: 'DINPro Light';
+            padding: 0.5rem 0;
+          }
+          &:first-child{
+            background-color: #e3e8b0;
+          }
+          &:nth-child(2){
+            background-color: #f7ee15;
+          }
+          &:nth-child(3){
+            background-color: #d4232d;
+            color: #FFF;
+          }
+          &:nth-child(4){
+            background-color: #0e9b4c;
+            color: #FFF;
+          }
+          &:nth-child(5){
+            background-color: #424799;
+            color: #FFF;
+          }
+          &:nth-child(6){
+            background-color: #22211f;
+            color: #FFF;
+          }
+          &:nth-child(7){
+            background-color: #c7c7c7;
+          }
+          &:last-child{
+            background-color: #fcd00b;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mantenMovimientos{
+  &-content{
+    &_description{
+      &-title{
+      }
+      &-text{
+        text-align: left;
+      }
+      &-message{
+      }
+    }
+    &_graphic{
+      background-image: none;
+      & img {
+      }
+    }
+  }
+}
+
+
+
+.bandaElastica{
+  &-container{
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    &_graphic{
+      flex: 0 1 30%;
+      text-align: center;
+      align-self: flex-start;
+      background-image: url(img/svg/circle-transparent-lines-blue.svg);
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: 100%;
+      position: relative;
+      & img.graphic-presentation {
+        width: 75%;
+        position: relative;
+        bottom: 15px;
+        margin: auto;
+      }
+      & img.graphic-presentation-2 {
+        width: 82%;
+        position: relative;
+        bottom: 9px;
+        margin: auto;
+      }
+      & img.graphic-presentationBanda1{
+        width: 48%;
+        margin: auto;
+        display: block;
+        /*&:hover{
+          animation-name: stepBandaElastica1;
+          animation-duration: 1s;
+        }*/
+      }
+      & img.graphic-presentationBanda2{
+        width: 72%;
+        margin: auto;
+      }
+      & img.graphic-presentationBanda3{
+        width: 48%;
+        margin: auto;
+      }
+      & img.graphic-presentationBanda4{
+        width: 72%;
+        margin: auto;
+      }
+
+      & img.graphic-presentationBandaPage3-1{
+        width: 100%;
+        margin: auto;
+      }
+      & img.graphic-presentationBandaPage3-2{
+        width: 100%;
+        margin: auto;
+      }
+      &Page3{
+        align-self: flex-end;
+        flex: 0 1 42%;
+      }
+
+      & img.graphic-presentationBandaPage4-1{
+        width: 80%;
+        position: relative;
+        bottom: -5px;
+      }
+      & img.graphic-presentationBandaPage4-2{
+        width: 80%;
+        position: relative;
+        bottom: -5px;
+      }
+      & img.graphic-presentationBandaPage4-3{
+        width: 80%;
+        position: relative;
+        bottom: -5px;
+      }
+      & img.graphic-presentationBandaPage4-4{
+        width: 80%;
+        position: relative;
+        bottom: -5px;
+      }
+      & img.graphic-presentationBandaPage5-1{
+        width: 55%;
+        position: relative;
+        bottom: 0;
+        margin: auto;
+      }
+      & img.graphic-presentationBandaPage5-2{
+        width: 55%;
+        position: relative;
+        bottom: 0;
+        margin: auto;
+      }
+      & img.graphic-presentationBandaPage5-3{
+        width: 55%;
+        position: relative;
+        bottom: 0;
+        margin: auto;
+      }
+      & img.graphic-presentationBandaPage5-4{
+        width: 55%;
+        position: relative;
+        bottom: 0;
+        margin: auto;
+      }
+      & img.graphic-presentationBandaPage6{
+        width: 70%;
+        position: relative;
+        bottom: -5px;
+        margin: auto;
+      }
+    }
+    &_description{
+      flex: 0 1 45%;
+      align-self: flex-start;
+      &-title{
+        color: #f67950;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem;
+      }
+      &-excersice{
+        margin-top: 2rem;
+        &_title{
+          color: #000;
+          font-family: "DINPro Bold";
+          font-size: 1.6rem;
+        }
+        &_text{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+        }
+        &_square{
+          box-sizing: content-box;
+          border-radius: 29px;
+          &--bgAll{
+            background-color: #156ab5;
+            padding: 8px;
+            border: 0;
+            margin-top: 2rem;
+          }
+          &-text{
+            font-size: 1.35rem;
+            text-align: center;
+            padding: 1rem 80px;
+            &--bgAll{
+              color: #fff;
+              border-radius: 29px;
+              border: 1px solid #FFF;
+              font-size: 1.3rem;
+              text-align: center;
+              padding: 0.9rem 30px;
+              font-family: 'DINPro Regular';
+            }
+          }
+        }
+      }
+      &-ul{
+        padding-left: 2rem;
+        &_li{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+          margin-bottom: 8px;
+          &--text{
+            margin-top: 1.2rem;
+          }
+        }
+      }
+      &-message{
+        color: #ada192;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'DINPro Bold';
+        padding: 0 2rem;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}
+.enTrabajo{
+  &-content{
+    &_graphic{
+      background-image: url(./img/svg/circle-transparent-lines.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 94%;
+      height: 100%;
+      &Page1{
+        background-image: none;
+      }
+    }
+  }
+}
+.cuidaBrazos, .enTrabajo, .enCasa{
+  &-container{
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    &_graphic{
+      flex: 0 1 38%;
+      text-align: center;
+      align-self: flex-start;
+      position: relative;
+      & img.graphic-enTrabajo {
+        width: 85%;
+      }
+      & img.graphic-enTrabajoPage2 {
+        width: 85%;
+      }
+      & img.graphic-enTrabajoPage3 {
+        width: 80%;
+      }
+      & img.graphic-enTrabajoPage4 {
+        width: 80%;
+      }
+      & img.graphic-enTrabajoPage7 {
+        width: 55%;
+      }
+      & img.graphic-enTrabajoPage8 {
+        width: 36%;
+      }
+      & img.graphic-enCasaPage1{
+        width: 82%;
+      }
+      & img.graphic-enCasaPage3{
+        width: 85%;
+      }
+      & img.graphic-enCasaPage4{
+        width: 100%;
+      }
+      & img.graphic-enCasaPage5{
+        width: 52%;
+      }
+      & img.graphic-enCasaPage6{
+        width: 38%;
+      }
+      
+    }
+    &_description{
+      flex: 0 1 45%;
+      align-self: flex-start;
+      &-title{
+        color: #ea0a30;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem;
+      }
+      &-text{
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+      }
+      &-ul{
+        padding-left: 2rem;
+        &_li{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+          margin-bottom: 8px;
+          text-align: justify;
+          &--text{
+            margin-top: 1.2rem;
+          }
+          &:first-child{
+            margin-top: 1rem;
+          }
+        }
+      }
+      &-message{
+        color: #ada192;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'DINPro Bold';
+        padding: 0 2rem;
+        margin-top: 1.5rem;
+      }
+      &-excersice{
+        margin-top: 2rem;
+        &_title{
+          color: #000;
+          font-family: "DINPro Bold";
+          font-size: 1.6rem;
+        }
+      }
+      &-square{
+        margin-top: 1.5rem;
+        box-sizing: content-box;
+        border-radius: 29px;
+        background-color: #f45151;
+        padding: 8px;
+        &_text{
+          color: #fff;
+          font-size: 1.5rem;
+          padding: 1.3rem 80px;
+          border-radius: 29px;
+          font-family: 'DINPro Light';
+          border: 1px solid #FFF;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.enTrabajoPage5{
+  &-content{
+    &_graphic{
+      flex: 0 1 44%;
+      //align-self: center;
+    }
+    &_description{
+      //align-self: center;
+      & ul{
+        margin: 3rem 0;
+      }
+    }
+  }
+}
+.enCasa{
+  &-content{
+    &_graphic{
+      &Page4{
+        flex: 0 1 44%;
+      }
+      &Page2{
+        flex: 0 1 48%;
+      }
+    }
+    &_description{
+      &-title{
+        color: #f67950;
+      }
+      &-ul{
+        &_li:first-child{margin-top: 0;}
+      }
+      &-excersice{
+
+      }
+      &Page2{
+        
+      }
+    }
+  }
+}
+
+
+.usoCelular{
+  &-container{
+    height: 100%;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    &_graphic{
+      flex: 1 0 45%;
+      background-image: url(img/svg/circleGris.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      text-align: center;
+      &-img{
+        width: 35%;
+        &Page2{
+          width: 60%;
+        }
+        &Page3{
+          width: 75%;
+        }
+        &22{
+          width: 22%;
+        }
+        &28{
+          width: 28%;
+        }
+      }
+      &Page2{
+        background-image: url(img/svg/circlePurpure.svg);
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    &_description{
+      flex: 0 1 45%;
+      &-title{
+        color: #535ff2;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem;
+      }
+      &-text{
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+      }
+      &-ul{
+        padding-left: 2rem;
+        &_li{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+          margin-bottom: 8px;
+          text-align: justify;
+          &--text{
+            margin-top: 1.2rem;
+          }
+        }
+      }
+      &-message{
+        color: #ada192;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'DINPro Bold';
+        padding: 0 2rem;
+        margin-top: 4.5rem;
+      }
+      &-excersice{
+        margin-top: 2rem;
+        &_title{
+          color: #000;
+          font-family: "DINPro Bold";
+          font-size: 1.6rem;
+        }
+      }
+      &-square{
+        margin-top: 3.5rem;
+        box-sizing: content-box;
+        border-radius: 29px;
+        background-color: #535ff2;
+        padding: 8px;
+        &_text{
+          color: #fff;
+          font-size: 1.5rem;
+          padding: 1.3rem 80px;
+          border-radius: 29px;
+          font-family: 'DINPro Light';
+          border: 1px solid #FFF;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.claroTips{
+  &-container{
+    height: 100%;
+    background-image: url(./img/svg/claroTipsBgP1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    &_graphic{
+      flex: 1 0 45%;
+      text-align: right;
+      &-mark{
+        background-image: url(./img/svg/claroTipsPage3-Bg.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        width: 87%;
+        padding: 6rem 0;
+        position: relative;
+        & img.claroTips-content_graphic-img{
+          width: 45%;
+          position: relative;
+          bottom: -100px;
+          left: -278px;
+        }
+      }
+      &-markPage4{
+        background-image: url(./img/svg/claroTipsPage4-Bg.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center top;
+        width: 80%;
+        position: relative;
+        & img.claroTips-content_graphic-img{
+          width: 34%;
+          position: relative;
+          bottom: -45px;
+        }
+      }
+      &Page2{
+        background-image: url(./img/svg/circle-transparent-lines.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+        & img{
+          width: 60%;
+          align-self: flex-end;
+        }
+      }
+      &Page3{
+        background-image: url(./img/svg/circle-transparent-lines.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      &-img{
+        width: 74%;
+        & img{
+          width: 60%;
+          align-self: flex-end;
+        }
+      }
+      &-notCheck{
+        position: absolute;
+        width: 12%;
+        right: 16%;
+        top: 8%;
+      }
+      &-CheckP3{
+        position: absolute;
+        width: 14%;
+        top: -9%;
+      }
+    }
+    &_description{
+      flex: 0 1 45%;
+      &-title{
+        color: #ee404c;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem;
+      }
+      &-text{
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+      }
+      &-ul{
+        padding-left: 2rem;
+        &_li{
+          font-family: 'DINPro light';
+          color: #2d1e1b;
+          font-size: 1.6rem;
+          margin-bottom: 8px;
+          text-align: left;
+          &--text{
+            margin-top: 1.2rem;
+          }
+        }
+      }
+      &-cntSubtitle{
+        margin: 2rem 0;
+        padding: .5rem 0;
+        background-image: url(./img/svg/claroTipsFndTitle.svg);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        &_subtitle{
+          color: #FFF;
+          font-family: 'DINPro Bold';
+          font-size: 2.2rem;
+        }
+        &Page2{
+          opacity: .5;
+          & p{
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+.navigation-bottom{
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+}
+.navigation-bottom_content{
+  display: flex;
+}
+.navigation-bottom_link {
+  text-align: center;
+  width: 68px;
+  &:first-child{
+    margin-right: 30px;
+  }
+  &:active{
+    transform: scale(.9);
+  }
+}
+.navigation-bottom_link-img {
+  width: 100%;
+  transition: .5s all ease-in-out;
+  &:hover{
+    opacity: .7;
+  }
+}
+
+.triangule{
+  background-image: url(img/svg/triangleRightMorado.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.hojaBottom{
+  background-image: url(img/svg/hojaBottomPurpura.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 13%;
+}
+
+.trianguleHoja{
+  background-image: url(img/svg/hojaRightPurpura.svg), url(img/svg/triangleLeftMorado.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom, left 96%;
+  background-size: 12.5%, 8%;
+  height: 100%;
+}

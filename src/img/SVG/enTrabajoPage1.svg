@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 657.1 739.9" enable-background="new 0 0 657.1 739.9" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- 2005 Albert-Jan Pool published by FSI Fonts und Software GmbH -->
+<!-- Copyright: Copyright 2022 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="DINPro-Medium" units-per-em="1000" underline-position="-135" underline-thickness="51"/>
+<missing-glyph horiz-adv-x="568" d="M81,0l406,0l0,712l-406,0M151,70l0,572l266,0l0,-572z"/>
+<glyph unicode="A" horiz-adv-x="625" d="M617,0l-261,712l-87,0l-261,-712l115,0l49,143l281,0l49,-143M423,235l-219,0l111,316z"/>
+<glyph unicode="&#xC1;" horiz-adv-x="625" d="M617,0l-261,712l-87,0l-261,-712l115,0l49,143l281,0l49,-143M423,235l-219,0l111,316M446,943l-113,0l-75,-162l77,0z"/>
+<glyph unicode="C" horiz-adv-x="628" d="M577,213l-109,0C451,141 402,91 323,91C281,91 243,107 218,134C183,172 175,213 175,356C175,499 183,540 218,578C243,605 281,621 323,621C402,621 450,571 467,499l110,0C552,641 454,718 323,718C249,718 185,691 136,642C66,572 67,493 67,356C67,219 66,140 136,70C185,21 249,-6 323,-6C452,-6 553,71 577,213z"/>
+<glyph unicode="E" horiz-adv-x="603" d="M548,0l0,97l-347,0l0,214l296,0l0,96l-296,0l0,208l347,0l0,97l-455,0l0,-712z"/>
+<glyph unicode="&#xC9;" horiz-adv-x="603" d="M548,0l0,97l-347,0l0,214l296,0l0,96l-296,0l0,208l347,0l0,97l-455,0l0,-712M447,943l-113,0l-75,-162l77,0z"/>
+<glyph unicode="F" horiz-adv-x="585" d="M548,615l0,97l-455,0l0,-712l108,0l0,301l296,0l0,97l-296,0l0,217z"/>
+<glyph unicode="I" horiz-adv-x="294" d="M201,0l0,712l-108,0l0,-712z"/>
+<glyph unicode="&#xCD;" horiz-adv-x="294" d="M201,0l0,712l-108,0l0,-712M296,943l-113,0l-75,-162l77,0z"/>
+<glyph unicode="M" horiz-adv-x="813" d="M721,0l0,712l-108,0l-204,-443l-208,443l-108,0l0,-712l108,0l0,476l168,-347l80,0l164,347l0,-476z"/>
+<glyph unicode="N" horiz-adv-x="722" d="M629,0l0,712l-108,0l0,-500l-329,500l-99,0l0,-712l108,0l0,501l329,-501z"/>
+<glyph unicode="O" horiz-adv-x="646" d="M579,356C579,493 581,572 511,642C462,691 399,718 323,718C247,718 185,691 136,642C66,572 67,493 67,356C67,219 66,140 136,70C185,21 247,-6 323,-6C399,-6 462,21 511,70C581,140 579,219 579,356M471,356C471,213 464,173 429,135C404,108 365,91 323,91C281,91 242,108 217,135C182,173 175,213 175,356C175,499 182,539 217,577C242,604 281,621 323,621C365,621 404,604 429,577C464,539 471,499 471,356z"/>
+<glyph unicode="P" horiz-adv-x="629" d="M591,496C591,620 502,712 363,712l-270,0l0,-712l108,0l0,280l162,0C502,280 591,372 591,496M483,496C483,421 432,378 357,378l-156,0l0,237l156,0C432,615 483,571 483,496z"/>
+<glyph unicode="R" horiz-adv-x="655" d="M612,0l-164,315C528,337 590,402 590,504C590,625 504,712 369,712l-276,0l0,-712l108,0l0,300l135,0l150,-300M482,503C482,433 433,392 361,392l-160,0l0,223l160,0C433,615 482,573 482,503z"/>
+<glyph unicode="X" horiz-adv-x="578" d="M568,0l-221,365l206,347l-124,0l-141,-255l-140,255l-124,0l206,-347l-220,-365l124,0l154,273l155,-273z"/>
+<glyph unicode="Z" horiz-adv-x="552" d="M504,0l0,97l-331,0l331,527l0,88l-442,0l0,-97l315,0l-329,-522l0,-93z"/>
+<glyph unicode="a" horiz-adv-x="530" d="M454,0l0,339C454,454 384,513 245,513C161,513 111,496 63,440l67,-63C158,413 185,426 241,426C320,426 352,395 352,331l0,-36l-134,0C102,295 43,234 43,149C43,106 57,67 83,40C114,9 156,-6 219,-6C282,-6 317,9 354,46l0,-46M352,183C352,147 345,123 330,108C303,82 274,79 235,79C171,79 142,105 142,151C142,197 173,224 233,224l119,0z"/>
+<glyph unicode="c" horiz-adv-x="485" d="M448,66l-70,67C346,98 321,85 281,85C242,85 209,101 187,130C165,158 157,195 157,254C157,313 165,349 187,377C209,406 242,422 281,422C321,422 346,409 378,374l70,68C400,493 351,513 281,513C167,513 55,444 55,254C55,64 167,-6 281,-6C351,-6 400,15 448,66z"/>
+<glyph unicode="i" horiz-adv-x="264" d="M183,0l0,507l-102,0l0,-507M186,607l0,108l-108,0l0,-108z"/>
+<glyph unicode="l" horiz-adv-x="311" d="M280,0l0,87l-45,0C194,87 180,107 180,146l0,566l-102,0l0,-572C78,65 120,0 217,0z"/>
+<glyph unicode="n" horiz-adv-x="568" d="M492,0l0,324C492,381 480,429 441,467C411,496 368,513 316,513C265,513 216,494 181,456l0,51l-100,0l0,-507l102,0l0,309C183,387 231,422 288,422C345,422 390,388 390,309l0,-309z"/>
+<glyph unicode="o" horiz-adv-x="537" d="M480,254C480,339 468,403 420,453C387,487 337,513 268,513C199,513 150,487 117,453C69,403 57,339 57,254C57,168 69,104 117,54C150,20 199,-6 268,-6C337,-6 387,20 420,54C468,104 480,168 480,254M378,254C378,199 374,146 343,115C324,96 298,85 268,85C238,85 213,96 194,115C163,146 159,199 159,254C159,309 163,362 194,393C213,412 238,422 268,422C298,422 324,412 343,393C374,362 378,309 378,254z"/>
+<glyph unicode="s" horiz-adv-x="499" d="M456,155C456,245 400,290 305,298l-80,7C171,310 155,333 155,363C155,401 186,428 247,428C295,428 340,418 372,391l64,65C389,497 324,513 248,513C142,513 57,457 57,358C57,269 112,226 207,218l81,-7C337,207 356,185 356,151C356,103 307,81 245,81C195,81 140,92 99,134l-67,-67C92,8 162,-6 245,-6C366,-6 456,49 456,155z"/>
+<glyph unicode=" " horiz-adv-x="240"/>
+<glyph unicode="z" horiz-adv-x="469" d="M421,0l0,91l-254,0l254,335l0,81l-364,0l0,-91l238,0l-252,-335l0,-81z"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- 2005 Albert-Jan Pool published by FSI Fonts und Software GmbH -->
+<!-- Copyright: Copyright 2022 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="DINPro-Light" units-per-em="1000" underline-position="-135" underline-thickness="51"/>
+<missing-glyph horiz-adv-x="559" d="M97,0l365,0l0,712l-365,0M135,38l0,636l289,0l0,-636z"/>
+<glyph unicode="H" horiz-adv-x="699" d="M535,0l54,0l0,712l-54,0l0,-329l-371,0l0,329l-54,0l0,-712l54,0l0,335l371,0z"/>
+<glyph unicode="a" horiz-adv-x="524" d="M380,0l51,0l0,330C431,431 372,488 244,488C165,488 115,471 74,414l37,-32C142,426 176,443 244,443C343,443 380,402 380,325l0,-54l-156,0C119,271 56,220 56,132C56,96 68,61 91,38C122,6 161,-6 233,-6C301,-6 339,7 380,48M380,230l0,-62C380,124 371,93 353,76C318,43 277,39 233,39C145,39 107,69 107,133C107,198 148,230 230,230z"/>
+<glyph unicode="c" horiz-adv-x="493" d="M440,68l-35,32C364,55 332,39 281,39C226,39 182,60 153,103C129,138 120,176 120,241C120,306 129,344 153,379C182,422 226,443 281,443C332,443 364,428 405,382l35,32C389,471 347,488 281,488C149,488 69,394 69,241C69,88 149,-6 281,-6C347,-6 389,11 440,68z"/>
+<glyph unicode="e" horiz-adv-x="523" d="M120,230l335,0l0,23C455,401 383,488 262,488C141,488 69,397 69,241C69,80 141,-6 274,-6C354,-6 399,19 448,68l-38,30C369,57 334,40 277,40C174,40 120,107 120,230M404,271l-284,0C123,318 126,331 137,362C158,413 206,443 262,443C318,443 366,413 387,362C400,333 401,317 404,271z"/>
+<glyph unicode="l" horiz-adv-x="287" d="M211,0l44,0l0,45l-35,0C163,45 146,71 146,126l0,586l-51,0l0,-587C95,49 132,0 211,0z"/>
+<glyph unicode="n" horiz-adv-x="559" d="M417,0l51,0l0,308C468,365 451,410 418,442C386,473 343,488 290,488C231,488 184,467 148,425l0,57l-51,0l0,-482l51,0l0,299C148,391 197,443 284,443C371,443 417,392 417,299z"/>
+<glyph unicode="o" horiz-adv-x="526" d="M457,241C457,310 448,384 397,435C362,470 318,488 263,488C209,488 164,470 129,435C78,384 69,310 69,241C69,172 78,98 129,47C164,12 209,-6 263,-6C318,-6 362,12 397,47C448,98 457,172 457,241M406,241C406,185 403,120 363,80C336,53 302,39 263,39C224,39 190,53 163,80C123,120 120,185 120,241C120,297 123,362 163,402C190,429 224,443 263,443C302,443 336,429 363,402C403,362 406,297 406,241z"/>
+<glyph unicode="p" horiz-adv-x="540" d="M471,241C471,317 458,397 409,446C384,471 342,488 291,488C236,488 191,476 148,420l0,62l-51,0l0,-712l51,0l0,292C191,6 236,-6 291,-6C342,-6 384,11 409,36C458,85 471,165 471,241M420,241C420,141 402,39 284,39C166,39 148,141 148,241C148,341 166,443 284,443C402,443 420,341 420,241z"/>
+<glyph unicode="r" horiz-adv-x="409" d="M368,405l37,37C370,477 336,488 289,488C232,488 176,463 148,418l0,64l-51,0l0,-482l51,0l0,297C148,374 194,443 277,443C317,443 339,434 368,405z"/>
+<glyph unicode="s" horiz-adv-x="494" d="M438,137C438,231 377,255 297,263l-78,7C151,277 121,300 121,351C121,411 164,444 244,444C297,444 342,430 379,403l34,34C370,469 311,488 244,488C139,488 71,435 71,351C71,275 119,233 216,225l80,-7C360,211 388,188 388,137C388,72 338,39 243,39C175,39 122,59 85,98l-35,-35C99,16 161,-6 245,-6C364,-6 438,49 438,137z"/>
+<glyph unicode=" " horiz-adv-x="255"/>
+<glyph unicode="z" horiz-adv-x="452" d="M54,0l344,0l0,45l-291,0l291,389l0,48l-328,0l0,-45l274,0l-290,-389z"/>
+</font>
+
+	<path fill="#DD3E57" d="M638.1,326.6c11,0,19.7-9.3,19-20.3C646.6,135.4,504.7,0,331.1,0C157.5,0,15.6,135.4,5.2,306.3
+	c-0.7,11,8,20.3,19,20.3H638.1z"/>
+<path fill="none" stroke="#DD3E57" stroke-width="0.5" stroke-miterlimit="10" d="M638.1,326.6c11,0,19.7-9.3,19-20.3
+	C646.6,135.4,504.7,0,331.1,0C157.5,0,15.6,135.4,5.2,306.3c-0.7,11,8,20.3,19,20.3H638.1z"/>
+<path fill="#DD3E57" d="M633,336.3c11,0,19.7,9.3,19,20.3c-10.5,170.9-152.4,306.3-326,306.3c-173.6,0-315.5-135.4-326-306.3
+	c-0.7-11,8-20.3,19-20.3H633z"/>
+<path fill="none" stroke="#DD3E57" stroke-width="0.5" stroke-miterlimit="10" d="M633,336.3c11,0,19.7,9.3,19,20.3
+	c-10.5,170.9-152.4,306.3-326,306.3c-173.6,0-315.5-135.4-326-306.3c-0.7-11,8-20.3,19-20.3H633z"/>
+<path fill="#F58221" d="M568.6,327.3c8.5,0,15.2-7.2,14.7-15.7c-8.1-132.2-117.9-237-252.2-237S87,179.4,78.9,311.6
+	c-0.5,8.5,6.2,15.7,14.7,15.7H568.6z"/>
+<path fill="none" stroke="#F58221" stroke-width="0.5" stroke-miterlimit="10" d="M568.6,327.3c8.5,0,15.2-7.2,14.7-15.7
+	c-8.1-132.2-117.9-237-252.2-237S87,179.4,78.9,311.6c-0.5,8.5,6.2,15.7,14.7,15.7H568.6z"/>
+<path fill="#F58221" d="M560.3,335.7c8.4,0,15,7.2,14.5,15.7c-8,132.2-116.3,237-248.8,237c-132.5,0-240.8-104.7-248.8-237
+	c-0.5-8.5,6.1-15.7,14.5-15.7H560.3z"/>
+<path fill="none" stroke="#F58221" stroke-width="0.5" stroke-miterlimit="10" d="M560.3,335.7c8.4,0,15,7.2,14.5,15.7
+	c-8,132.2-116.3,237-248.8,237c-132.5,0-240.8-104.7-248.8-237c-0.5-8.5,6.1-15.7,14.5-15.7H560.3z"/>
+<path fill="#1772B7" d="M500.4,328.1c6.1,0,10.8-5.1,10.5-11.2c-5.8-94.3-84.1-169-179.8-169c-95.7,0-174,74.7-179.8,169
+	c-0.4,6,4.4,11.2,10.5,11.2H500.4z"/>
+<path fill="none" stroke="#1772B7" stroke-width="0.5" stroke-miterlimit="10" d="M500.4,328.1c6.1,0,10.8-5.1,10.5-11.2
+	c-5.8-94.3-84.1-169-179.8-169c-95.7,0-174,74.7-179.8,169c-0.4,6,4.4,11.2,10.5,11.2H500.4z"/>
+<path fill="#1772B7" d="M495.3,335.3c6.1,0,10.8,5.1,10.5,11.2c-5.8,94.3-84.1,169-179.8,169c-95.7,0-174-74.7-179.8-169
+	c-0.4-6,4.4-11.2,10.5-11.2H495.3z"/>
+<path fill="none" stroke="#1772B7" stroke-width="0.5" stroke-miterlimit="10" d="M495.3,335.3c6.1,0,10.8,5.1,10.5,11.2
+	c-5.8,94.3-84.1,169-179.8,169c-95.7,0-174-74.7-179.8-169c-0.4-6,4.4-11.2,10.5-11.2H495.3z"/>
+<text transform="matrix(1 0 0 1 225.996 53.579)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">Z</tspan><tspan x="14.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">O</tspan><tspan x="32" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">N</tspan><tspan x="52.1" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan><tspan x="69.2" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949"> </tspan><tspan x="75.5" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">P</tspan><tspan x="92.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">E</tspan><tspan x="108.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">R</tspan><tspan x="126.4" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">I</tspan><tspan x="133.8" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">F</tspan><tspan x="149.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">É</tspan><tspan x="165.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">R</tspan><tspan x="183.4" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">I</tspan><tspan x="190.9" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">C</tspan><tspan x="208.1" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan></text>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="240.2,53.6 240.2,50.9 230.9,50.9 
+	240.2,36 240.2,33.6 227.7,33.6 227.7,36.3 236.6,36.3 227.3,51 227.3,53.6 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M253.8,43.6c0,4-0.2,5.1-1.2,6.2
+	c-0.7,0.8-1.8,1.2-3,1.2s-2.3-0.5-3-1.2c-1-1.1-1.2-2.2-1.2-6.2c0-4,0.2-5.1,1.2-6.2c0.7-0.8,1.8-1.2,3-1.2s2.3,0.5,3,1.2
+	C253.6,38.4,253.8,39.6,253.8,43.6z M256.8,43.6c0-3.8,0.1-6.1-1.9-8c-1.4-1.4-3.1-2.1-5.3-2.1s-3.9,0.8-5.3,2.1c-2,2-1.9,4.2-1.9,8
+	c0,3.8,0,6.1,1.9,8c1.4,1.4,3.1,2.1,5.3,2.1s3.9-0.8,5.3-2.1C256.9,49.6,256.8,47.4,256.8,43.6z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="275.6,53.6 275.6,33.6 272.6,33.6 
+	272.6,47.6 263.4,33.6 260.6,33.6 260.6,53.6 263.6,53.6 263.6,39.5 272.9,53.6 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M289.9,47h-6.2l3.1-8.9L289.9,47z M295.4,53.6
+	l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H295.4z"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M315,39.6c0,2.1-1.4,3.3-3.5,3.3h-4.4v-6.7h4.4
+	C313.6,36.3,315,37.5,315,39.6z M318.1,39.6c0-3.5-2.5-6.1-6.4-6.1h-7.6v20h3v-7.9h4.6C315.6,45.7,318.1,43.1,318.1,39.6z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="333.9,53.6 333.9,50.9 324.2,50.9 
+	324.2,44.8 332.5,44.8 332.5,42.1 324.2,42.1 324.2,36.3 333.9,36.3 333.9,33.6 321.1,33.6 321.1,53.6 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M348.1,39.4c0,2-1.4,3.1-3.4,3.1h-4.5v-6.3h4.5
+	C346.7,36.3,348.1,37.5,348.1,39.4z M351.8,53.6l-4.6-8.8c2.2-0.6,4-2.4,4-5.3c0-3.4-2.4-5.8-6.2-5.8h-7.8v20h3v-8.4h3.8l4.2,8.4
+	H351.8z"/>
+<rect x="354.9" y="33.6" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="3" height="20"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="375,36.3 375,33.6 362.3,33.6 362.3,53.6 
+	365.3,53.6 365.3,45.1 373.6,45.1 373.6,42.4 365.3,42.4 365.3,36.3 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M388,27.1h-3.2l-2.1,4.6h2.2L388,27.1z
+	 M390.8,53.6v-2.7h-9.7v-6h8.3v-2.7h-8.3v-5.8h9.7v-2.7h-12.8v20H390.8z"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M405,39.4c0,2-1.4,3.1-3.4,3.1h-4.5v-6.3h4.5
+	C403.7,36.3,405,37.5,405,39.4z M408.7,53.6l-4.6-8.8c2.2-0.6,4-2.4,4-5.3c0-3.4-2.4-5.8-6.2-5.8h-7.8v20h3v-8.4h3.8l4.2,8.4H408.7z
+	"/>
+<rect x="411.8" y="33.6" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="3" height="20"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M433,47.6h-3.1c-0.5,2-1.9,3.4-4.1,3.4
+	c-1.2,0-2.2-0.5-2.9-1.2c-1-1.1-1.2-2.2-1.2-6.2c0-4,0.2-5.2,1.2-6.2c0.7-0.8,1.8-1.2,2.9-1.2c2.2,0,3.6,1.4,4,3.4h3.1
+	c-0.7-4-3.5-6.2-7.1-6.2c-2.1,0-3.9,0.8-5.3,2.1c-2,2-1.9,4.2-1.9,8c0,3.8,0,6.1,1.9,8c1.4,1.4,3.2,2.1,5.3,2.1
+	C429.4,53.7,432.3,51.6,433,47.6z"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M445.7,47h-6.2l3.1-8.9L445.7,47z M451.2,53.6
+	l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H451.2z"/>
+<text transform="matrix(1 0 0 1 249.4082 133.1826)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">Z</tspan><tspan x="14.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">O</tspan><tspan x="32" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">N</tspan><tspan x="52.1" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan><tspan x="69.2" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949"> </tspan><tspan x="75.5" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">M</tspan><tspan x="98.2" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">Á</tspan><tspan x="116.8" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">X</tspan><tspan x="132.8" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">I</tspan><tspan x="140.2" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">M</tspan><tspan x="162.9" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan></text>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="263.6,133.2 263.6,130.5 254.3,130.5 
+	263.6,115.7 263.6,113.2 251.2,113.2 251.2,115.9 260,115.9 250.8,130.6 250.8,133.2 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M277.2,123.2c0,4-0.2,5.1-1.2,6.2
+	c-0.7,0.8-1.8,1.2-3,1.2s-2.3-0.5-3-1.2c-1-1.1-1.2-2.2-1.2-6.2c0-4,0.2-5.1,1.2-6.2c0.7-0.8,1.8-1.2,3-1.2s2.3,0.5,3,1.2
+	C277,118,277.2,119.2,277.2,123.2z M280.2,123.2c0-3.8,0.1-6.1-1.9-8c-1.4-1.4-3.1-2.1-5.3-2.1s-3.9,0.8-5.3,2.1c-2,2-1.9,4.2-1.9,8
+	c0,3.8,0,6.1,1.9,8c1.4,1.4,3.1,2.1,5.3,2.1s3.9-0.8,5.3-2.1C280.3,129.2,280.2,127,280.2,123.2z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="299.1,133.2 299.1,113.2 296,113.2 
+	296,127.2 286.8,113.2 284,113.2 284,133.2 287,133.2 287,119.1 296.3,133.2 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M313.4,126.6h-6.2l3.1-8.9L313.4,126.6z
+	 M318.8,133.2l-7.3-20H309l-7.3,20h3.2l1.4-4h7.9l1.4,4H318.8z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="345.1,133.2 345.1,113.2 342.1,113.2 
+	336.4,125.6 330.5,113.2 327.5,113.2 327.5,133.2 330.5,133.2 330.5,119.8 335.2,129.6 337.5,129.6 342.1,119.8 342.1,133.2 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M360.1,106.7h-3.2l-2.1,4.6h2.2L360.1,106.7z
+	 M359.4,126.6h-6.2l3.1-8.9L359.4,126.6z M364.9,133.2l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H364.9z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="382.1,133.2 375.9,122.9 381.6,113.2 
+	378.2,113.2 374.2,120.3 370.3,113.2 366.8,113.2 372.6,122.9 366.4,133.2 369.9,133.2 374.2,125.5 378.6,133.2 "/>
+<rect x="384.7" y="113.2" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="3" height="20"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="409.8,133.2 409.8,113.2 406.7,113.2 
+	401,125.6 395.1,113.2 392.1,113.2 392.1,133.2 395.1,133.2 395.1,119.8 399.9,129.6 402.1,129.6 406.7,119.8 406.7,133.2 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M424.1,126.6h-6.2l3.1-8.9L424.1,126.6z
+	 M429.5,133.2l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H429.5z"/>
+<text transform="matrix(1 0 0 1 252.6718 206.662)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">Z</tspan><tspan x="14.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">O</tspan><tspan x="32" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">N</tspan><tspan x="52.1" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan><tspan x="69.3" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949"> </tspan><tspan x="75.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">M</tspan><tspan x="97.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">I</tspan><tspan x="105" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">N</tspan><tspan x="124.5" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">Í</tspan><tspan x="131.9" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">M</tspan><tspan x="154.6" y="0" fill="#FFFFFF" font-family="'DINPro-Medium'" font-size="28.0949">A</tspan></text>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="266.8,206.7 266.8,203.9 257.5,203.9 
+	266.8,189.1 266.8,186.7 254.4,186.7 254.4,189.4 263.3,189.4 254,204 254,206.7 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M280.5,196.7c0,4-0.2,5.1-1.2,6.2
+	c-0.7,0.8-1.8,1.2-3,1.2s-2.3-0.5-3-1.2c-1-1.1-1.2-2.2-1.2-6.2c0-4,0.2-5.1,1.2-6.2c0.7-0.8,1.8-1.2,3-1.2s2.3,0.5,3,1.2
+	C280.3,191.5,280.5,192.6,280.5,196.7z M283.5,196.7c0-3.8,0.1-6.1-1.9-8c-1.4-1.4-3.1-2.1-5.3-2.1s-3.9,0.8-5.3,2.1
+	c-2,2-1.9,4.2-1.9,8c0,3.8,0,6.1,1.9,8c1.4,1.4,3.1,2.1,5.3,2.1s3.9-0.8,5.3-2.1C283.5,202.7,283.5,200.5,283.5,196.7z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="302.3,206.7 302.3,186.7 299.3,186.7 
+	299.3,200.7 290,186.7 287.3,186.7 287.3,206.7 290.3,206.7 290.3,192.6 299.5,206.7 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M316.6,200.1h-6.2l3.1-8.9L316.6,200.1z
+	 M322.1,206.7l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H322.1z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="348.4,206.7 348.4,186.7 345.4,186.7 
+	339.6,199.1 333.8,186.7 330.8,186.7 330.8,206.7 333.8,206.7 333.8,193.3 338.5,203 340.8,203 345.4,193.3 345.4,206.7 "/>
+<rect x="352.8" y="186.7" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="3" height="20"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="375.2,206.7 375.2,186.7 372.2,186.7 
+	372.2,200.7 362.9,186.7 360.2,186.7 360.2,206.7 363.2,206.7 363.2,192.6 372.4,206.7 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M385.3,180.2h-3.2l-2.1,4.6h2.2L385.3,180.2z
+	 M382.6,206.7v-20h-3v20H382.6z"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="404.7,206.7 404.7,186.7 401.7,186.7 
+	395.9,199.1 390.1,186.7 387.1,186.7 387.1,206.7 390.1,206.7 390.1,193.3 394.8,203 397.1,203 401.7,193.3 401.7,206.7 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M419,200.1h-6.2l3.1-8.9L419,200.1z M424.4,206.7
+	l-7.3-20h-2.4l-7.3,20h3.2l1.4-4h7.9l1.4,4H424.4z"/>
+<text transform="matrix(1 0 0 1 188.1035 707.5346)"><tspan x="0" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">H</tspan><tspan x="20.1" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">a</tspan><tspan x="35" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">z</tspan><tspan x="48.1" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30"> </tspan></text>
+<text transform="matrix(1 0 0 1 243.2734 707.5346)"><tspan x="0" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">cl</tspan><tspan x="22.6" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">i</tspan><tspan x="29.6" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">c</tspan><tspan x="43.7" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30"> </tspan></text>
+<text transform="matrix(1 0 0 1 293.6435 707.5346)"><tspan x="0" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">p</tspan><tspan x="15.6" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">a</tspan><tspan x="30.4" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">r</tspan><tspan x="42.8" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">a </tspan><tspan x="65.2" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">c</tspan><tspan x="79.1" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">o</tspan><tspan x="94.1" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">n</tspan><tspan x="110.1" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">o</tspan><tspan x="125.2" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">ce</tspan><tspan x="153.8" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">r</tspan><tspan x="165.6" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30"> </tspan></text>
+<text transform="matrix(1 0 0 1 267.4536 734.0551)"><tspan x="0" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">l</tspan><tspan x="8.4" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">a</tspan><tspan x="23.3" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30">s</tspan><tspan x="37.7" y="0" fill="#616161" font-family="'DINPro-Light'" font-size="30"> </tspan></text>
+<text transform="matrix(1 0 0 1 312.2734 734.0551)"><tspan x="0" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">z</tspan><tspan x="13.2" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">o</tspan><tspan x="28.6" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">n</tspan><tspan x="44.8" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">a</tspan><tspan x="60.2" y="0" fill="#616161" font-family="'DINPro-Medium'" font-size="30">s</tspan></text>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M248,255.1c-3.1,0-5.5,2.5-5.5,5.5V310c0,3.1,2.5,5.5,5.5,5.5h163.5c3.1,0,5.5-2.5,5.5-5.5v-49.4
+			c0-3.1-2.5-5.5-5.5-5.5H248z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="240.9" y="250.4" width="177.8" height="69.9">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="240.9" y="250.4" width="177.8" height="69.9" id="SVGID_3_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-631.4244" y1="917.7362" x2="-630.4244" y2="917.7362" gradientTransform="matrix(-1.8796 69.9687 69.9687 1.8796 -65068.6172 42694.5039)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.216" style="stop-color:#C2C2C2"/>
+				<stop  offset="0.6041" style="stop-color:#5B5B5B"/>
+				<stop  offset="0.8737" style="stop-color:#191919"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon clip-path="url(#SVGID_2_)" fill="url(#SVGID_4_)" points="418.6,255.1 416.9,320.3 240.9,315.5 242.6,250.4 			"/>
+		</g>
+	</mask>
+	
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-631.4244" y1="917.7362" x2="-630.4244" y2="917.7362" gradientTransform="matrix(-1.8796 69.9687 69.9687 1.8796 -65068.6172 42694.5039)">
+		<stop  offset="0" style="stop-color:#010101"/>
+		<stop  offset="1" style="stop-color:#010101"/>
+	</linearGradient>
+	<polygon clip-path="url(#SVGID_2_)" mask="url(#SVGID_3_)" fill="url(#SVGID_5_)" points="418.6,255.1 416.9,320.3 240.9,315.5 
+		242.6,250.4 	"/>
+</g>
+<path fill="#1E1D19" d="M417,236.5v1.7H242.5v-1.7c0-1.8,1.6-3.2,3.5-3.2h167.6C415.5,233.2,417,234.7,417,236.5"/>
+<path fill="#333029" d="M415,296.2H244.5c-1.1,0-2-0.9-2-2v-56.5c0-1.1,0.9-2,2-2l170.5,0c1.1,0,2,0.9,2,2v56.5
+	C417,295.3,416.1,296.2,415,296.2"/>
+<rect x="249.5" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="263.9" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="278.4" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="292.8" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="307.2" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="321.6" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="336" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="351.7" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="366.2" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="380.6" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="395" y="244.1" fill="#1E1D19" width="7.1" height="4"/>
+<rect x="249.5" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="260.4" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="271.4" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="282.3" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="293.2" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="304.1" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="315.1" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="326" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="336.9" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="249.5" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="260.4" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="271.4" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="282.3" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="293.2" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="304.1" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="315.1" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="326" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="336.9" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="348.3" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="359.2" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="370.1" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="348.3" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="359.2" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="370.1" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="249.5" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="260.4" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="271.4" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="282.3" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="293.2" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="304.1" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="315.1" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="326" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="336.9" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="249.5" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="260.4" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="271.4" y="279.8" fill="#1E1D19" width="39.7" height="6.9"/>
+<rect x="315.1" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="326" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="336.9" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="382" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="393" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="403.9" y="251.9" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="382" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="393" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="403.9" y="261.2" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="382" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="393" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="393" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="403.9" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="382" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="403.9" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="359.2" y="270.5" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="348.3" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="359.2" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<rect x="370.1" y="279.8" fill="#1E1D19" width="6.9" height="6.9"/>
+<g>
+	<defs>
+		<path id="SVGID_6_" d="M444,250.6c-2.7,0.1-5.4,1-7.6,2.7l0,0c-2.3,1.8-4,4.4-4.6,7.9c0,0.2-0.1,0.3-0.1,0.5
+			c-1.8,12.5,5.1,13.7,4,18.6c-2.8,12.4,4.1,16.3,9.8,16.5c0,0,0,0,0,0c2.3,0,4.4-0.5,5.5-1.5c5.3-4.4,9.4-23.2,5.5-35.8
+			c-1.8-5.8-6.6-8.7-11.5-8.9c-0.2,0-0.4,0-0.6,0C444.3,250.6,444.2,250.6,444,250.6"/>
+	</defs>
+	<clipPath id="SVGID_7_">
+		<use xlink:href="#SVGID_6_"  overflow="visible"/>
+	</clipPath>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="408.5" y="236.4" width="73.4" height="74.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="408.5" y="236.4" width="73.4" height="74.5" id="SVGID_8_">
+		<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+			
+				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="-633.8066" y1="915.5858" x2="-632.8066" y2="915.5858" gradientTransform="matrix(-44.3805 65.6538 65.6538 44.3805 -87763.3125 1204.2133)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.216" style="stop-color:#C2C2C2"/>
+				<stop  offset="0.6041" style="stop-color:#5B5B5B"/>
+				<stop  offset="0.8737" style="stop-color:#191919"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon clip-path="url(#SVGID_7_)" fill="url(#SVGID_9_)" points="481.9,265.1 450.9,311 408.5,282.3 439.5,236.4 			"/>
+		</g>
+	</mask>
+	
+		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="-633.8066" y1="915.5858" x2="-632.8066" y2="915.5858" gradientTransform="matrix(-44.3805 65.6538 65.6538 44.3805 -87763.3281 1204.2111)">
+		<stop  offset="0" style="stop-color:#010101"/>
+		<stop  offset="1" style="stop-color:#010101"/>
+	</linearGradient>
+	<polygon clip-path="url(#SVGID_7_)" mask="url(#SVGID_8_)" fill="url(#SVGID_10_)" points="481.9,265.1 450.9,311 408.5,282.3 
+		439.5,236.4 	"/>
+</g>
+<path fill="#333029" d="M453,290.1c-1.1,0.9-3.2,1.5-5.5,1.5c0,0,0,0,0,0c-5.7-0.1-12.6-4.1-9.8-16.5c1.1-4.9-5.8-6.1-4-18.6
+	c0-0.2,0.1-0.3,0.1-0.5c0.6-3.5,2.3-6.1,4.6-7.9l0,0c2.2-1.7,4.9-2.6,7.6-2.7c0.3,0,0.7,0,1.1,0c4.9,0.2,9.7,3.1,11.5,8.9
+	C462.4,266.9,458.3,285.7,453,290.1"/>
+<path fill="#1E1D19" d="M449.2,260.4L449.2,260.4c-0.3,0-0.5-0.2-0.5-0.5c0-6.1-1.8-11.9-2.7-14.5c0.3,0,0.7,0,1.1,0
+	c1,2.8,2.6,8.5,2.7,14.5C449.7,260.1,449.4,260.4,449.2,260.4"/>
+<path fill="#1E1D19" d="M447.5,291.5c-5.7-0.1-12.6-4.1-9.8-16.5c1.1-4.9-5.8-6.1-4-18.6c0-0.2,0.1-0.3,0.1-0.5
+	c0.6-3.5,2.3-6.1,4.6-7.9c-0.1,0.2-4.5,6.4-2.3,12.9c2.3,6.7,6,7.4,4.4,16.5C438.8,286.4,443.1,291.1,447.5,291.5"/>
+<path fill="#010101" d="M281.9,457.3c-4.8-2.6-6.8-8.5-4.5-13.5c2.4-5.2,8.6-7.5,13.8-5.1c0.3,0.1,11.7,5.2,29.3,7
+	c23.5,2.5,46.5-1.5,68.3-11.9c5.2-2.5,11.4-0.3,13.9,4.9c2.5,5.2,0.3,11.4-4.9,13.9c-61.2,29.2-113,6-115.1,5
+	C282.3,457.5,282.1,457.4,281.9,457.3"/>
+<rect x="276.4" y="329.6" fill="#F39576" width="111.4" height="47.9"/>
+<path fill="#E38166" d="M275.3,329.5l0.9,19.9l7.1,18.9c0,0,16.6-13.5,38.2-19.7c21.6-6.2,35.9,0.8,39.6,3.4
+	c8.5,5.9,26.9,23.5,26.9,23.5v-20.8l0-25.7L275.3,329.5z"/>
+<path fill="#F9BF98" d="M285.8,292.2l9.5-19.8c0,0,11.7-8.3,13-10.6c1.3-2.3,7.6-18.1,7.6-18.1s-2.3-2.2-3.8-1.2s-5.9,7.7-5.9,7.7
+	s-0.3-3.4,0.1-5c0.3-1.2,6.3-10.8,9.2-15.4c0.9-1.4,0.5-3.2-0.8-4.2c-1.3-1-3-0.8-4.2,0.3l-4.5,4.5l-4.9-2.4l-5.5,3.1l-11.7,6.1
+	l-5.4,12.9l-0.1,13.1l-10,15.7L285.8,292.2z"/>
+<path fill="#F9BF98" d="M390.3,322.5l1.2-22c0,0-6.2-12.9-6.3-15.5c-0.1-2.6,2-19.5,2-19.5s3-0.8,3.9,0.7c0.9,1.5,1.5,9.6,1.5,9.6
+	s1.9-2.8,2.4-4.4c0.3-1.2-0.3-12.5-0.6-17.9c-0.1-1.6,1.1-3.1,2.7-3.3c1.6-0.2,3.1,0.7,3.5,2.2l1.8,6.1l5.4,0.3l3.3,5.4l7.3,11
+	l-1.5,13.9l-6.2,11.5l1.1,18.6L390.3,322.5z"/>
+<path fill="#F9BF98" d="M271.9,326.9l18.3-43.6l-15.9-13.6c0,0-32.4,49.3-33,50.8l16.5,56.7l28.8,4.3L271.9,326.9z"/>
+<polygon fill="#F9BF98" points="390.3,322.5 387.9,377.5 418.4,376.4 411.8,319.2 "/>
+<path fill="#F39576" d="M418.7,365.1c1.3-0.1,2.4,1,2.3,2.4c-0.5,5.8-3.7,22.4-5.9,33.6c-1.6,8.2-5.9,15.6-12.3,20.9
+	c-13.7,11.6-39.2,28.3-64.9,29c-36.4,1-70.5-34-74.3-38.7c-3.7-4.6-14.2-40.5-14.2-42.1v-1.4c0-2.5,2.1-4.5,4.6-4.4l25.6,1.4
+	c2.3,0.1,4.2,2.1,4.2,4.4l101.3,1.7l-0.1-2c-0.1-1.6,1.2-3,2.8-3.1L418.7,365.1z"/>
+<path fill="#F9BF98" d="M308.6,378.5c0,0-0.1-15.8,8.1-22.1c9.5-7.3,28.5-7.6,37.6,0.3c13.4,11.6,10.5,16.2,10.5,16.2L308.6,378.5z"
+	/>
+<path fill="#361F19" d="M371.8,377c0,0-6.8-16.1-24.5-19.5c-17.6-3.4-22.6-1.2-22.6-1.2l4.4,1.4l-9.9,3.1c0,0-14.6,11.7-18.2,22.4
+	c-3.6,10.7-1,19.4-1,19.4s-1.8,11.1,1.5,17.4c3.3,6.2,13.5,15.3,22.8,17.6c9.3,2.3,18.8,0.4,18.8,0.4s7.8,2.2,15.9-2.5
+	c8.1-4.7,10.4-12.2,10.4-12.2s7.8-4.7,9.6-8.6c1.7-3.9,2.3-15,2.3-15S383.4,381.8,371.8,377"/>
+</svg>
