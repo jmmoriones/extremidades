@@ -1,0 +1,2011 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("http://fonts.cdnfonts.com/css/din-pro");
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline; }
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none; }
+
+@keyframes textFadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes slow {
+  0% {
+    display: none; }
+  100% {
+    display: block; } }
+
+@keyframes textFadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes textLeftToRight {
+  from {
+    transform: translateX(-100%); }
+  to {
+    transform: translateX(0%); } }
+
+@keyframes bottomToTop {
+  from {
+    transform: translateY(-100%); }
+  to {
+    transform: translateY(0%); } }
+
+@keyframes smallToNormalIn {
+  from {
+    transform: scale(0.8); }
+  to {
+    transform: scale(1); } }
+
+@keyframes smallToNormalOut {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(0.8); } }
+
+/* Efecto maquina de escribir */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+@font-face {
+  font-family: 'DINPro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro-Regular"), url("./fonts/DINPro/DINPro-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'DINPro Black';
+  font-style: normal;
+  src: local("DINPro-Black"), url("./fonts/DINPro/DINPro-Black.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'DINPro Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local("DINPro-Bold"), url("./fonts/DINPro/DINPro-Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'DINPro Medium';
+  font-style: normal;
+  src: local("DINPro-Medium"), url("./fonts/DINPro/DINPro-Medium.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'DINPro Light';
+  font-style: normal;
+  src: local("DINPro-Light"), url("./fonts/DINPro/DINPro-Light.otf") format("opentype"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DINPro Regular", sans-serif; }
+
+html {
+  height: 100%;
+  position: relative; }
+
+body {
+  background: #cddefc46;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex: 0 0 12%;
+  margin-bottom: 2.5rem; }
+  .navbar__boton_link {
+    text-align: right;
+    margin-left: 15px;
+    display: flex;
+    width: 50px;
+    height: 50px; }
+  .navbar__boton_img {
+    width: 100%; }
+  .navbar__logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 292px;
+    height: 100%; }
+    .logo {
+      position: absolute;
+      width: 60%;
+      margin-top: 18px;
+      z-index: 2; }
+    .fondo__logo {
+      position: absolute;
+      height: 120%;
+      width: 128%;
+      top: -10%;
+      left: -20%;
+      transform: skewX(-15deg) rotateZ(-2deg);
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 2px 2px 10px darkgrey; }
+  .navbar__boton-contenedor {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 2rem; }
+    .navbar__boton {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      background: linear-gradient(130deg, #b8b8b8, #fff);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer; }
+      .navbar__boton__figura-contenedor {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+        background: linear-gradient(130deg, #4f80ff, #157bb5);
+        border-radius: 50%; }
+        .navbar__boton__figura {
+          filter: drop-shadow(2px 2px 0px #00000021); }
+
+.contenedor {
+  width: 100%;
+  max-width: 1350px;
+  margin: auto; }
+
+.main {
+  position: relative;
+  width: 100%;
+  /*height: 100%;
+  margin-top: 2rem;*/
+  flex: 0 1 88%; }
+  .principal__grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+    .principal__grid__child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0px 10px; }
+      .principal__grid__child:nth-child(1) {
+        justify-content: flex-end; }
+        .opcion__menu {
+          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          width: 100%;
+          max-width: 511px;
+          padding: 15px 0px;
+          margin-top: 15px;
+          text-decoration: none;
+          background: #157bb5;
+          border-radius: 100px;
+          box-shadow: inset 0px 0px 5px 1px #ffffff8c;
+          overflow: hidden; }
+          .opcion__menu:hover {
+            background: #0a5e8f; }
+          .opcion__menu__imagen-contenedor {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            width: 11%;
+            height: 100%; }
+            .opcion__menu__imagen {
+              position: absolute;
+              height: 211%; }
+          .opcion__menu__text {
+            font-size: 16px;
+            text-align: left;
+            color: #fff;
+            margin-left: 20px; }
+      .principal__grid__child:nth-child(2) {
+        margin-top: 30px; }
+        .principal__figura {
+          width: 70%; }
+          .ojo {
+            animation: parpadeo 2s linear infinite;
+            transform-origin: center;
+            transform-box: fill-box; }
+
+@keyframes parpadeo {
+  0% {
+    transform: scaleY(1); }
+  45% {
+    transform: scaleY(1); }
+  50% {
+    transform: scaleY(0); }
+  55% {
+    transform: scaleY(1); }
+  100% {
+    transform: scaleY(1); } }
+
+.contenedor__navegacion {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .boton__navegacion {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    background: linear-gradient(130deg, #b8b8b8, white);
+    border-radius: 50%;
+    cursor: pointer; }
+    .boton__navegacion:hover::before {
+      background: linear-gradient(130deg, #4f80ff, #157bb5); }
+    .boton__navegacion:hover .boton__navegacion__figura-contenedor {
+      background: linear-gradient(130deg, #4f80ff, #157bb5); }
+    .boton__navegacion::before {
+      content: "";
+      position: absolute;
+      display: flex;
+      width: 80%;
+      height: 80%;
+      background: linear-gradient(130deg, #f67950, #f15a29);
+      border-radius: 50%; }
+    .boton__navegacion__figura-contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 70%;
+      background: linear-gradient(45deg, #f67950, #f15a29);
+      border-radius: 50%;
+      z-index: 2; }
+      .boton__navegacion__figura {
+        width: 50%;
+        filter: drop-shadow(1px 1px 0px #00000096); }
+    .boton__navegacion:nth-child(1) .boton__navegacion__figura-contenedor .boton__navegacion__figura {
+      transform: rotateZ(180deg);
+      filter: drop-shadow(-1px -1px 0px #00000096); }
+
+.howToFunction-container {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background-color: #21212199;
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+  display: none; }
+
+.howToFunction-content {
+  background-color: #FFF;
+  background-image: url(img/svg/circleAdmiration.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: -130px center;
+  width: 90%;
+  border-radius: 10px;
+  padding: 1rem;
+  padding-bottom: 7rem; }
+  .howToFunction-content_link {
+    float: right;
+    font-size: 1.3rem;
+    color: #cb0404;
+    font-weight: bold;
+    text-decoration: none; }
+  .howToFunction-content_info {
+    text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 4rem; }
+    .howToFunction-content_info-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #4280b7;
+      font-family: "DINPro Bold"; }
+    .howToFunction-content_info-description {
+      font-size: 1.5rem;
+      font-family: 'DINPro light'; }
+    .howToFunction-content_info-items {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem; }
+      .howToFunction-content_info-items_item picture img {
+        max-width: 120px; }
+      .howToFunction-content_info-items_item-title {
+        font-size: 1.5rem;
+        margin: 1.2rem 0;
+        color: #1d1f1d;
+        font-family: 'DINPro Bold'; }
+      .howToFunction-content_info-items_item-description {
+        font-size: 1.2rem;
+        font-family: 'DINPro light'; }
+      .howToFunction-content_info-items_item:nth-child(2), .howToFunction-content_info-items_item:nth-child(3) {
+        margin: 0 2rem; }
+
+.addAnimation {
+  display: flex;
+  animation: .5s opacity; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (min-width: 640px) {
+  .principal__grid {
+    grid-template-columns: repeat(2, 1fr); }
+  .principal__figura {
+    width: 90%; }
+  .principal__grid__child {
+    margin-top: 0px; }
+  .opcion__menu {
+    margin-top: 30px; }
+  .opcion__menu__text {
+    font-size: 14px; }
+  .contenedor__navegacion {
+    justify-content: flex-end; } }
+
+@media only screen and (min-width: 800px) {
+  .opcion__menu__text {
+    font-size: 18px; }
+  .principal__figura {
+    width: 70%; } }
+
+@media only screen and (min-width: 1092px) {
+  .opcion__menu__text {
+    font-size: 25px; } }
+
+.portada-container {
+  height: 100vh;
+  background-image: url(./img/svg/fondoSlide0.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-origin: content-box; }
+
+.portada-header {
+  background-color: #FFF;
+  box-shadow: 3px 3px 10px #21212152; }
+  .portada-header_cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0; }
+  .portada-header_logoLeft {
+    flex: 0 0 16%; }
+    .portada-header_logoLeft img {
+      width: 100%; }
+  .portada-header_logoRight {
+    flex: 0 0 7%; }
+    .portada-header_logoRight img {
+      width: 100%; }
+
+.portada-content {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 7rem;
+  justify-content: center; }
+  .portada-content_imgCenter {
+    width: 25%; }
+  .portada-content_div1, .portada-content_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .portada-content_div1-left_textLarge, .portada-content_div2-left_textLarge {
+      font-family: 'DINPro Black';
+      color: #FFF;
+      font-size: 8rem; }
+    .portada-content_div1-left_textSmall, .portada-content_div2-left_textSmall {
+      font-family: 'DINPro Medium';
+      color: #FFF;
+      font-size: 3rem; }
+  .portada-content_div2 {
+    margin-top: 0.5rem; }
+    .portada-content_div2-text {
+      font-size: 2.2rem;
+      color: #FFF; }
+
+.portada-content_div1-left_textLarge {
+  text-align: left; }
+
+.portada-content_div2-left_textLarge {
+  padding-left: 1rem; }
+
+.audio1Slide3 {
+  visibility: hidden;
+  height: 0px; }
+
+.linkPrev {
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #898c95; }
+  .linkPrev:before {
+    content: "<";
+    padding-right: 7px;
+    font-size: 32px; }
+  .linkPrev:hover {
+    color: #da4a54; }
+
+.container-content_slide {
+  margin: auto;
+  max-width: 1400px; }
+  @media screen and (max-width: 1399px) {
+    .container-content_slide {
+      width: 90%; } }
+
+.queEsActivate-container {
+  height: 100%;
+  background-image: url(img/svg/circleSVG2.svg);
+  background-repeat: no-repeat;
+  background-size: 82%;
+  background-position: right top;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.queEsActivate-content {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+  overflow: hidden; }
+  .queEsActivate-content_description {
+    flex: 0 0 50%; }
+    .queEsActivate-content_description-title {
+      color: #4cb0d8;
+      font-family: 'DINPro Bold';
+      font-size: 2.3rem;
+      margin-bottom: 1.1rem;
+      animation-name: textFadeIn;
+      animation-duration: 2s; }
+    .queEsActivate-content_description-text {
+      color: #1d1f1d;
+      font-size: 1.4rem;
+      margin-bottom: 18px;
+      text-align: justify;
+      font-family: 'DINPro Light'; }
+  .queEsActivate-content_graphic {
+    flex: 0 0 42%;
+    position: relative; }
+    .queEsActivate-content_graphic img {
+      max-width: 100%;
+      animation-name: bottomToTop;
+      animation-duration: 1.5s; }
+    .queEsActivate-content_graphic-audio {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 10%; }
+
+.conoceExtremidades-content {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */ }
+  @media screen and (max-width: 1399px) {
+    .conoceExtremidades-content {
+      width: 90%; } }
+  
+  .conoceExtremidades-content_graphic {
+    flex: 0 0 42%;
+    z-index: -2; }
+    .conoceExtremidades-content_graphic img {
+      position: relative;
+      top: -40px;
+      z-index: 5; }
+  .conoceExtremidades-content_description {
+    flex: 0 0 42%; 
+    margin-top: 6vh;
+  }
+    .conoceExtremidades-content_description-title {
+      font-size: 2.2rem;
+      font-family: 'DINPro Black';
+      color: #da4a54;
+      margin-bottom: 1rem; }
+    .conoceExtremidades-content_description-text {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      text-align: justify;
+      font-family: 'DINPro Light';
+      letter-spacing: .1px;
+      color: #161616; }
+    .conoceExtremidades-content_description-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem; }
+      .conoceExtremidades-content_description-buttons_btn {
+        width: 46%;
+        border-radius: 30px;
+        border: 0;
+        cursor: pointer; }
+        .conoceExtremidades-content_description-buttons_btn:first-child {
+          background-color: #da4a54; }
+        .conoceExtremidades-content_description-buttons_btn:last-child {
+          background-color: #898c95; }
+        .conoceExtremidades-content_description-buttons_btn img {
+          width: 22%;
+          float: left; }
+        .conoceExtremidades-content_description-buttons_btn span {
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          font-size: 1.4rem; }
+  .conoceExtremidades-content_bodyHumanCircle {
+    position: absolute;
+    bottom: -10px;
+    right: -12px;
+    width: 88%; }
+
+.extremidadSuperior-content, .codExtremidadSuperior-content, .antebrazoExtremidadSuperior-content, .muniecaExtremidad-content, .cuidarExtremidades-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center;  */}
+  .extremidadSuperior-content_graphic, .codExtremidadSuperior-content_graphic, .antebrazoExtremidadSuperior-content_graphic, .muniecaExtremidad-content_graphic, .cuidarExtremidades-content_graphic {
+    flex: 0 0 50%;
+    z-index: -2; }
+    .extremidadSuperior-content_graphic img, .codExtremidadSuperior-content_graphic img, .antebrazoExtremidadSuperior-content_graphic img, .muniecaExtremidad-content_graphic img, .cuidarExtremidades-content_graphic img {
+      position: relative;
+      top: -68px;
+      z-index: 5; }
+    .extremidadSuperior-content_graphic--width, .codExtremidadSuperior-content_graphic--width, .antebrazoExtremidadSuperior-content_graphic--width, .muniecaExtremidad-content_graphic--width, .cuidarExtremidades-content_graphic--width {
+      flex: 0 0 45%;
+     }
+      .extremidadSuperior-content_graphic--width img, .codExtremidadSuperior-content_graphic--width img, .antebrazoExtremidadSuperior-content_graphic--width img, .muniecaExtremidad-content_graphic--width img, .cuidarExtremidades-content_graphic--width img {
+        top: 15px; }
+  .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
+    flex: 0 0 42%; 
+    margin-top: 6vw;
+  }
+    .extremidadSuperior-content_description--width, .codExtremidadSuperior-content_description--width, .antebrazoExtremidadSuperior-content_description--width, .muniecaExtremidad-content_description--width, .cuidarExtremidades-content_description--width {
+      flex: 0 0 55%; }
+    .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title {
+      font-size: 2.2rem;
+      font-family: 'DINPro Black';
+      color: #da4a54;
+      margin-bottom: 1rem; }
+      .extremidadSuperior-content_description-title--blue, .codExtremidadSuperior-content_description-title--blue, .antebrazoExtremidadSuperior-content_description-title--blue, .muniecaExtremidad-content_description-title--blue, .cuidarExtremidades-content_description-title--blue {
+        color: #417ffc;
+        margin-bottom: 18px;
+        font-family: 'DINPro Bold'; }
+    .extremidadSuperior-content_description-subTitle, .codExtremidadSuperior-content_description-subTitle, .antebrazoExtremidadSuperior-content_description-subTitle, .muniecaExtremidad-content_description-subTitle, .cuidarExtremidades-content_description-subTitle {
+      font-family: 'DINPro Bold';
+      font-size: 1.5rem;
+      margin-bottom: 5px; }
+    .extremidadSuperior-content_description-list, .codExtremidadSuperior-content_description-list, .antebrazoExtremidadSuperior-content_description-list, .muniecaExtremidad-content_description-list, .cuidarExtremidades-content_description-list {
+      padding-left: 1.2rem; }
+      .extremidadSuperior-content_description-list_item, .codExtremidadSuperior-content_description-list_item, .antebrazoExtremidadSuperior-content_description-list_item, .muniecaExtremidad-content_description-list_item, .cuidarExtremidades-content_description-list_item {
+        font-family: 'DINPro Light';
+        font-size: 1.4rem;
+        text-align: justify;
+        letter-spacing: .1px;
+        margin-bottom: 1px;
+        font-size: 1.4rem;
+        color: #161616; }
+    .extremidadSuperior-content_description-text, .codExtremidadSuperior-content_description-text, .antebrazoExtremidadSuperior-content_description-text, .muniecaExtremidad-content_description-text, .cuidarExtremidades-content_description-text {
+      font-family: 'DINPro Light';
+      font-size: 1.4rem;
+      text-align: justify;
+      letter-spacing: .1px;
+      color: #161616; }
+      .extremidadSuperior-content_description-text--align, .codExtremidadSuperior-content_description-text--align, .antebrazoExtremidadSuperior-content_description-text--align, .muniecaExtremidad-content_description-text--align, .cuidarExtremidades-content_description-text--align {
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 18px; }
+    .extremidadSuperior-content_description-square, .codExtremidadSuperior-content_description-square, .antebrazoExtremidadSuperior-content_description-square, .muniecaExtremidad-content_description-square, .cuidarExtremidades-content_description-square {
+      background-color: #da4a54;
+      padding: 0.7rem;
+      border-radius: 25px;
+      margin: 2.5rem 0; }
+      .extremidadSuperior-content_description-square_text, .codExtremidadSuperior-content_description-square_text, .antebrazoExtremidadSuperior-content_description-square_text, .muniecaExtremidad-content_description-square_text, .cuidarExtremidades-content_description-square_text {
+        border: 1px solid #FFF;
+        padding: 0.9rem 26px;
+        border-radius: 25px;
+        text-align: center;
+        color: #FFF;
+        font-size: 1.3rem; }
+    .extremidadSuperior-content_description-buttons, .codExtremidadSuperior-content_description-buttons, .antebrazoExtremidadSuperior-content_description-buttons, .muniecaExtremidad-content_description-buttons, .cuidarExtremidades-content_description-buttons {
+      display: flex;
+      justify-content: space-between; }
+      .extremidadSuperior-content_description-buttons_btn, .codExtremidadSuperior-content_description-buttons_btn, .antebrazoExtremidadSuperior-content_description-buttons_btn, .muniecaExtremidad-content_description-buttons_btn, .cuidarExtremidades-content_description-buttons_btn {
+        width: 46%;
+        border-radius: 30px;
+        border: 0;
+        cursor: pointer; }
+        .extremidadSuperior-content_description-buttons_btn:first-child, .codExtremidadSuperior-content_description-buttons_btn:first-child, .antebrazoExtremidadSuperior-content_description-buttons_btn:first-child, .muniecaExtremidad-content_description-buttons_btn:first-child, .cuidarExtremidades-content_description-buttons_btn:first-child {
+          background-color: #da4a54; }
+        .extremidadSuperior-content_description-buttons_btn:last-child, .codExtremidadSuperior-content_description-buttons_btn:last-child, .antebrazoExtremidadSuperior-content_description-buttons_btn:last-child, .muniecaExtremidad-content_description-buttons_btn:last-child, .cuidarExtremidades-content_description-buttons_btn:last-child {
+          background-color: #898c95; }
+        .extremidadSuperior-content_description-buttons_btn img, .codExtremidadSuperior-content_description-buttons_btn img, .antebrazoExtremidadSuperior-content_description-buttons_btn img, .muniecaExtremidad-content_description-buttons_btn img, .cuidarExtremidades-content_description-buttons_btn img {
+          width: 22%;
+          float: left; }
+        .extremidadSuperior-content_description-buttons_btn span, .codExtremidadSuperior-content_description-buttons_btn span, .antebrazoExtremidadSuperior-content_description-buttons_btn span, .muniecaExtremidad-content_description-buttons_btn span, .cuidarExtremidades-content_description-buttons_btn span {
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          font-size: 1.4rem; }
+
+.cuidarExtremidades-content_description-list_item {
+  font-size: 1.5rem; }
+
+.extremidadSuperior-content_graphic-hombro {
+  width: 100%; }
+
+.extremidadSuperior-content_graphic-munieca {
+  width: 50%; }
+
+.extremidadSuperior-content_graphic-antebrazo {
+  width: 35%; }
+
+.extremidadSuperior-content_graphic-codo {
+  width: 55%; }
+
+.extremidadSuperior-content_graphic, .codExtremidadSuperior-content_graphic, .antebrazoExtremidadSuperior-content_graphic, .muniecaExtremidad-content_graphic {
+  background-image: url(./img/svg/fondo-body.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  text-align: center; }
+
+.activaExtremidadS-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem; }
+  .activaExtremidadS-content_graphic {
+    background-image: url(img/svg/circle-transparent-lines.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    flex: 1 0 45%;
+    text-align: center;
+    position: relative;
+    text-align: center; }
+    .activaExtremidadS-content_graphic img {
+      width: 70%; }
+    .activaExtremidadS-content_graphic--page2 img {
+      width: 50%; }
+    .activaExtremidadS-content_graphic-audio {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10%; }
+      .activaExtremidadS-content_graphic-audio img {
+        width: 100%; }
+  .activaExtremidadS-content_description {
+    flex: 1 0 50%; }
+    .activaExtremidadS-content_description-title {
+      color: #f67950;
+      font-family: 'DINPro Bold';
+      font-size: 2.5rem; }
+      .activaExtremidadS-content_description-title--bottomP5 {
+        margin-bottom: 2rem; }
+    .activaExtremidadS-content_description-subTitle {
+      color: #2d1e1b;
+      font-size: 1.6rem;
+      margin: 1.2rem 0; }
+      .activaExtremidadS-content_description-subTitle--medium {
+        font-family: 'DINPro Medium'; }
+    .activaExtremidadS-content_description-ul {
+      padding-left: 2rem; }
+      .activaExtremidadS-content_description-ul_li {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem; }
+        .activaExtremidadS-content_description-ul_li--text {
+          margin-top: 1.2rem; }
+    .activaExtremidadS-content_description-square {
+      margin-top: 1.5rem;
+      box-sizing: content-box;
+      border-radius: 29px;
+      border: 7px solid #f67950; }
+      .activaExtremidadS-content_description-square--bgAll {
+        background-color: #f67950;
+        padding: 8px; }
+      .activaExtremidadS-content_description-square_text {
+        color: #f67950;
+        font-size: 1.35rem;
+        text-align: center;
+        padding: 1rem 80px;
+        font-family: 'DINPro Medium'; }
+        .activaExtremidadS-content_description-square_text--bgAll {
+          color: #fff;
+          font-size: 1.8rem;
+          padding: 1.4rem 80px;
+          border-radius: 29px;
+          font-family: 'DINPro Light';
+          border: 1px solid #FFF; }
+    .activaExtremidadS-content_description-excersice_title {
+      color: #d6512d;
+      font-family: "DINPro Bold";
+      font-size: 1.6rem; }
+    .activaExtremidadS-content_description-excersice_text {
+      font-family: "DINPro Light";
+      font-size: 1.6rem; }
+
+/* .activaExtremidadS_animation {
+  animation-name: slow;
+    animation-duration: 2s; } */
+
+.antesDePracticar-img {
+  /* position: absolute; */
+  left: 30%;
+  overflow: hidden; }
+
+.relajaExtremidadesS-container {
+  height: 100%;
+  padding-top: 2.5rem; }
+
+.relajaExtremidadesS-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%; }
+  .relajaExtremidadesS-content_graphic {
+    flex: 0 1 40%;
+    text-align: center;
+    align-self: flex-end;
+    background-image: url(img/svg/circle-transparent-lines-blue.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    position: relative; }
+    .relajaExtremidadesS-content_graphic img.graphic-presentation {
+      width: 80%;
+      position: relative;
+      bottom: -9px; }
+    .relajaExtremidadesS-content_graphic--changeStyle img.graphic-presentation {
+      width: 55%;
+      top: -55px; }
+    .relajaExtremidadesS-content_graphic--changeStyle2 img.graphic-presentation {
+      width: 60%;
+      top: 1rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle3 img.graphic-presentation {
+      width: 53%;
+      top: 1rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle4 {
+      text-align: right; }
+      .relajaExtremidadesS-content_graphic--changeStyle4 img.graphic-presentation {
+        width: 66%;
+        top: 1rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle5 img.graphic-presentation {
+      width: 60%;
+      top: 1rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle6 {
+      text-align: right; }
+      .relajaExtremidadesS-content_graphic--changeStyle6 img.graphic-presentation {
+        width: 75%;
+        bottom: 0rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle7 {
+      text-align: right; }
+      .relajaExtremidadesS-content_graphic--changeStyle7 img.graphic-presentation {
+        width: 75%;
+        position: relative;
+        bottom: -1rem; }
+    .relajaExtremidadesS-content_graphic--changeStyle8 img.graphic-presentation {
+      width: 48%;
+      position: relative;
+      bottom: -1rem; }
+    .relajaExtremidadesS-content_graphic-audio {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 12%; }
+      .relajaExtremidadesS-content_graphic-audio img {
+        width: 100%; }
+  .relajaExtremidadesS-content_description {
+    flex: 0 1 38%; }
+    .relajaExtremidadesS-content_description-title {
+      color: #156ab5;
+      font-family: 'DINPro Bold';
+      font-size: 2.5rem; }
+    .relajaExtremidadesS-content_description-textSmall {
+      color: #2d1e1b;
+      font-size: 1.5rem;
+      margin: 1.4rem 0; }
+    .relajaExtremidadesS-content_description-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4rem; }
+      .relajaExtremidadesS-content_description-buttons_btn {
+        width: 46%;
+        border-radius: 30px;
+        border: 0;
+        cursor: pointer;
+        overflow: hidden; }
+        .relajaExtremidadesS-content_description-buttons_btn:first-child {
+          background-color: #0060cc; }
+        .relajaExtremidadesS-content_description-buttons_btn:last-child {
+          background-color: #898c95; }
+        .relajaExtremidadesS-content_description-buttons_btn img {
+          width: 22%;
+          float: left; }
+        .relajaExtremidadesS-content_description-buttons_btn span {
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          font-size: 1.4rem; }
+    .relajaExtremidadesS-content_description-excersice {
+      margin-top: 2rem; }
+      .relajaExtremidadesS-content_description-excersice_title {
+        color: #000;
+        font-family: "DINPro Bold";
+        font-size: 1.6rem; }
+      .relajaExtremidadesS-content_description-excersice_text {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem; }
+      .relajaExtremidadesS-content_description-excersice_square {
+        box-sizing: content-box;
+        border-radius: 29px; }
+        .relajaExtremidadesS-content_description-excersice_square--bgAll {
+          background-color: #156ab5;
+          padding: 8px;
+          border: 0;
+          margin-top: 2rem; }
+        .relajaExtremidadesS-content_description-excersice_square-text {
+          font-size: 1.35rem;
+          text-align: center;
+          padding: 1rem 80px; }
+          .relajaExtremidadesS-content_description-excersice_square-text--bgAll {
+            color: #fff;
+            border-radius: 29px;
+            border: 1px solid #FFF;
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 0.9rem 30px;
+            font-family: 'DINPro Regular'; }
+      .relajaExtremidadesS-content_description-excersice_message {
+        color: #95b1ac;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 2rem;
+        margin-top: 1.5rem; }
+
+.ejercitaExtremidades-content, .eligeGoma-content, .mantenMovimientos-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .ejercitaExtremidades-content_description, .eligeGoma-content_description, .mantenMovimientos-content_description {
+    flex: 0 1 50%; }
+    .ejercitaExtremidades-content_description-title, .eligeGoma-content_description-title, .mantenMovimientos-content_description-title {
+      color: #f67950;
+      font-family: 'DINPro Bold';
+      font-size: 2.2rem; }
+    .ejercitaExtremidades-content_description-text, .eligeGoma-content_description-text, .mantenMovimientos-content_description-text {
+      font-family: 'DINPro light';
+      color: #2d1e1b;
+      font-size: 1.4rem;
+      margin: 2rem 0;
+      text-align: justify; }
+    .ejercitaExtremidades-content_description-message, .eligeGoma-content_description-message, .mantenMovimientos-content_description-message {
+      color: #a99d8d;
+      font-size: 1.7rem;
+      text-align: center;
+      padding: 0 2rem;
+      margin-top: 1.5rem;
+      font-family: 'DINPro Bold'; }
+  .ejercitaExtremidades-content_graphic, .eligeGoma-content_graphic, .mantenMovimientos-content_graphic {
+    flex: 0 1 50%;
+    background-image: url("./img/svg/fondo-mujerBandaElastica.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1rem;
+    background-position: center center; }
+    .ejercitaExtremidades-content_graphic img, .eligeGoma-content_graphic img, .mantenMovimientos-content_graphic img {
+      width: 27%;
+      position: relative;
+      bottom: -55px;
+      left: 40%;
+      right: 0; }
+
+.ejercitaExtremidades-content_description-text, .eligeGoma-content_description-text {
+  margin-bottom: 0; }
+  .ejercitaExtremidades-content_description-text:last-child, .eligeGoma-content_description-text:last-child {
+    margin-top: 0; }
+
+.ejercitaExtremidades-content_graphic, .eligeGoma-content_graphic {
+  background-image: none; }
+  .ejercitaExtremidades-content_graphic table, .eligeGoma-content_graphic table {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    border-spacing: 0px; }
+    .ejercitaExtremidades-content_graphic table thead tr th, .eligeGoma-content_graphic table thead tr th {
+      font-family: 'DINPro Bold';
+      padding: 0.5rem 0;
+      border-top: 1px solid #212121;
+      border-bottom: 1px solid #212121; }
+    .ejercitaExtremidades-content_graphic table tbody tr td, .eligeGoma-content_graphic table tbody tr td {
+      font-family: 'DINPro Light';
+      padding: 0.5rem 0; }
+    .ejercitaExtremidades-content_graphic table tbody tr:first-child, .eligeGoma-content_graphic table tbody tr:first-child {
+      background-color: #e3e8b0; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(2), .eligeGoma-content_graphic table tbody tr:nth-child(2) {
+      background-color: #f7ee15; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(3), .eligeGoma-content_graphic table tbody tr:nth-child(3) {
+      background-color: #d4232d;
+      color: #FFF; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(4), .eligeGoma-content_graphic table tbody tr:nth-child(4) {
+      background-color: #0e9b4c;
+      color: #FFF; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(5), .eligeGoma-content_graphic table tbody tr:nth-child(5) {
+      background-color: #424799;
+      color: #FFF; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(6), .eligeGoma-content_graphic table tbody tr:nth-child(6) {
+      background-color: #22211f;
+      color: #FFF; }
+    .ejercitaExtremidades-content_graphic table tbody tr:nth-child(7), .eligeGoma-content_graphic table tbody tr:nth-child(7) {
+      background-color: #c7c7c7; }
+    .ejercitaExtremidades-content_graphic table tbody tr:last-child, .eligeGoma-content_graphic table tbody tr:last-child {
+      background-color: #fcd00b; }
+
+.mantenMovimientos-content_description-text {
+  text-align: left; }
+
+.mantenMovimientos-content_graphic {
+  background-image: none; }
+
+.bandaElastica-container {
+  height: 100%;
+  padding-top: 2.5rem; }
+
+.bandaElastica-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%; }
+  .bandaElastica-content_graphic {
+    flex: 0 1 30%;
+    text-align: center;
+    align-self: flex-start;
+    background-image: url(img/svg/circle-transparent-lines-blue.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    position: relative; }
+    .bandaElastica-content_graphic img.graphic-presentation {
+      width: 75%;
+      position: relative;
+      bottom: 15px;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentation-2 {
+      width: 82%;
+      position: relative;
+      bottom: 9px;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBanda1 {
+      width: 48%;
+      margin: auto;
+      display: block;
+      /*&:hover{
+          animation-name: stepBandaElastica1;
+          animation-duration: 1s;
+        }*/ }
+    .bandaElastica-content_graphic img.graphic-presentationBanda2 {
+      width: 72%;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBanda3 {
+      width: 48%;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBanda4 {
+      width: 72%;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage3-1 {
+      width: 100%;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage3-2 {
+      width: 100%;
+      margin: auto; }
+    .bandaElastica-content_graphicPage3 {
+      align-self: flex-end;
+      flex: 0 1 42%; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage4-1 {
+      width: 80%;
+      position: relative;
+      bottom: -5px; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage4-2 {
+      width: 80%;
+      position: relative;
+      bottom: -5px; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage4-3 {
+      width: 80%;
+      position: relative;
+      bottom: -5px; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage4-4 {
+      width: 80%;
+      position: relative;
+      bottom: -5px; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage5-1 {
+      width: 55%;
+      position: relative;
+      bottom: 0;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage5-2 {
+      width: 55%;
+      position: relative;
+      bottom: 0;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage5-3 {
+      width: 55%;
+      position: relative;
+      bottom: 0;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage5-4 {
+      width: 55%;
+      position: relative;
+      bottom: 0;
+      margin: auto; }
+    .bandaElastica-content_graphic img.graphic-presentationBandaPage6 {
+      width: 70%;
+      position: relative;
+      bottom: -5px;
+      margin: auto; }
+  .bandaElastica-content_description {
+    flex: 0 1 45%;
+    align-self: flex-start; }
+    .bandaElastica-content_description-title {
+      color: #f67950;
+      font-family: 'DINPro Bold';
+      font-size: 2.2rem; }
+    .bandaElastica-content_description-excersice {
+      margin-top: 2rem; }
+      .bandaElastica-content_description-excersice_title {
+        color: #000;
+        font-family: "DINPro Bold";
+        font-size: 1.6rem; }
+      .bandaElastica-content_description-excersice_text {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem; }
+      .bandaElastica-content_description-excersice_square {
+        box-sizing: content-box;
+        border-radius: 29px; }
+        .bandaElastica-content_description-excersice_square--bgAll {
+          background-color: #156ab5;
+          padding: 8px;
+          border: 0;
+          margin-top: 2rem; }
+        .bandaElastica-content_description-excersice_square-text {
+          font-size: 1.35rem;
+          text-align: center;
+          padding: 1rem 80px; }
+          .bandaElastica-content_description-excersice_square-text--bgAll {
+            color: #fff;
+            border-radius: 29px;
+            border: 1px solid #FFF;
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 0.9rem 30px;
+            font-family: 'DINPro Regular'; }
+    .bandaElastica-content_description-ul {
+      padding-left: 2rem; }
+      .bandaElastica-content_description-ul_li {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        /* margin-bottom: 8px; */ }
+        .bandaElastica-content_description-ul_li--text {
+          margin-top: 1.2rem; }
+    .bandaElastica-content_description-message {
+      color: #ada192;
+      font-size: 2rem;
+      text-align: center;
+      font-family: 'DINPro Bold';
+      padding: 0 2rem;
+      margin-top: 1.5rem; }
+
+.enTrabajo-content_graphic {
+  background-image: url(./img/svg/circle-transparent-lines.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 94%;
+  height: 100%; }
+  .enTrabajo-content_graphicPage1 {
+    background-image: none; }
+
+.cuidaBrazos-container, .enTrabajo-container, .enCasa-container {
+  height: 100%;
+  padding-top: 2.5rem; }
+
+.cuidaBrazos-content, .enTrabajo-content, .enCasa-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%; }
+  .cuidaBrazos-content_graphic, .enTrabajo-content_graphic, .enCasa-content_graphic {
+    flex: 0 1 38%;
+    text-align: center;
+    align-self: flex-start;
+    position: relative; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajo, .enTrabajo-content_graphic img.graphic-enTrabajo, .enCasa-content_graphic img.graphic-enTrabajo {
+      width: 85%; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajoPage2, .enTrabajo-content_graphic img.graphic-enTrabajoPage2, .enCasa-content_graphic img.graphic-enTrabajoPage2 {
+      width: 85%; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajoPage3, .enTrabajo-content_graphic img.graphic-enTrabajoPage3, .enCasa-content_graphic img.graphic-enTrabajoPage3 {
+      width: 80%; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajoPage4, .enTrabajo-content_graphic img.graphic-enTrabajoPage4, .enCasa-content_graphic img.graphic-enTrabajoPage4 {
+      width: 80%; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajoPage7, .enTrabajo-content_graphic img.graphic-enTrabajoPage7, .enCasa-content_graphic img.graphic-enTrabajoPage7 {
+      width: 55%; }
+    .cuidaBrazos-content_graphic img.graphic-enTrabajoPage8, .enTrabajo-content_graphic img.graphic-enTrabajoPage8, .enCasa-content_graphic img.graphic-enTrabajoPage8 {
+      width: 36%; }
+    .cuidaBrazos-content_graphic img.graphic-enCasaPage1, .enTrabajo-content_graphic img.graphic-enCasaPage1, .enCasa-content_graphic img.graphic-enCasaPage1 {
+      width: 82%; }
+    .cuidaBrazos-content_graphic img.graphic-enCasaPage3, .enTrabajo-content_graphic img.graphic-enCasaPage3, .enCasa-content_graphic img.graphic-enCasaPage3 {
+      width: 85%; }
+    .cuidaBrazos-content_graphic img.graphic-enCasaPage4, .enTrabajo-content_graphic img.graphic-enCasaPage4, .enCasa-content_graphic img.graphic-enCasaPage4 {
+      width: 100%; }
+    .cuidaBrazos-content_graphic img.graphic-enCasaPage5, .enTrabajo-content_graphic img.graphic-enCasaPage5, .enCasa-content_graphic img.graphic-enCasaPage5 {
+      width: 52%; }
+    .cuidaBrazos-content_graphic img.graphic-enCasaPage6, .enTrabajo-content_graphic img.graphic-enCasaPage6, .enCasa-content_graphic img.graphic-enCasaPage6 {
+      width: 38%; }
+  .cuidaBrazos-content_description, .enTrabajo-content_description, .enCasa-content_description {
+    flex: 0 1 45%;
+    align-self: flex-start; }
+    .cuidaBrazos-content_description-title, .enTrabajo-content_description-title, .enCasa-content_description-title {
+      color: #ea0a30;
+      font-family: 'DINPro Bold';
+      font-size: 2.2rem; }
+    .cuidaBrazos-content_description-text, .enTrabajo-content_description-text, .enCasa-content_description-text {
+      font-family: 'DINPro light';
+      color: #2d1e1b;
+      font-size: 1.6rem;
+      margin-top: 1rem; }
+    .cuidaBrazos-content_description-ul, .enTrabajo-content_description-ul, .enCasa-content_description-ul {
+      padding-left: 2rem; }
+      .cuidaBrazos-content_description-ul_li, .enTrabajo-content_description-ul_li, .enCasa-content_description-ul_li {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        text-align: justify; }
+        .cuidaBrazos-content_description-ul_li--text, .enTrabajo-content_description-ul_li--text, .enCasa-content_description-ul_li--text {
+          margin-top: 1.2rem; }
+        .cuidaBrazos-content_description-ul_li:first-child, .enTrabajo-content_description-ul_li:first-child, .enCasa-content_description-ul_li:first-child {
+          margin-top: 1rem; }
+    .cuidaBrazos-content_description-message, .enTrabajo-content_description-message, .enCasa-content_description-message {
+      color: #ada192;
+      font-size: 2rem;
+      text-align: center;
+      font-family: 'DINPro Bold';
+      padding: 0 2rem;
+      margin-top: 1.5rem; }
+    .cuidaBrazos-content_description-excersice, .enTrabajo-content_description-excersice, .enCasa-content_description-excersice {
+      margin-top: 2rem; }
+      .cuidaBrazos-content_description-excersice_title, .enTrabajo-content_description-excersice_title, .enCasa-content_description-excersice_title {
+        color: #000;
+        font-family: "DINPro Bold";
+        font-size: 1.6rem; }
+    .cuidaBrazos-content_description-square, .enTrabajo-content_description-square, .enCasa-content_description-square {
+      margin-top: 1.5rem;
+      box-sizing: content-box;
+      border-radius: 29px;
+      background-color: #f45151;
+      padding: 8px; }
+      .cuidaBrazos-content_description-square_text, .enTrabajo-content_description-square_text, .enCasa-content_description-square_text {
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1.3rem 80px;
+        border-radius: 29px;
+        font-family: 'DINPro Light';
+        border: 1px solid #FFF;
+        text-align: center; }
+
+.enTrabajoPage5-content_graphic {
+  flex: 0 1 44%; }
+
+.enTrabajoPage5-content_description ul {
+  margin: 3rem 0; }
+
+.enCasa-content_graphicPage4 {
+  flex: 0 1 44%; }
+
+.enCasa-content_graphicPage2 {
+  flex: 0 1 48%; }
+
+.enCasa-content_description-title {
+  color: #f67950; }
+
+.enCasa-content_description-ul_li:first-child {
+  margin-top: 0; }
+
+.usoCelular-container {
+  height: 100%; }
+
+.usoCelular-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%; }
+  .usoCelular-content_graphic {
+    flex: 1 0 45%;
+    background-image: url(img/svg/circleGris.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center; }
+    .usoCelular-content_graphic-img {
+      width: 35%; }
+      .usoCelular-content_graphic-imgPage2 {
+        width: 60%; }
+      .usoCelular-content_graphic-imgPage3 {
+        width: 75%; }
+      .usoCelular-content_graphic-img22 {
+        width: 22%; }
+      .usoCelular-content_graphic-img28 {
+        width: 28%; }
+    .usoCelular-content_graphicPage2 {
+      background-image: url(img/svg/circlePurpure.svg);
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .usoCelular-content_description {
+    flex: 0 1 45%; }
+    .usoCelular-content_description-title {
+      color: #535ff2;
+      font-family: 'DINPro Bold';
+      font-size: 2.2rem; }
+    .usoCelular-content_description-text {
+      font-family: 'DINPro light';
+      color: #2d1e1b;
+      font-size: 1.6rem;
+      margin-top: 1rem; }
+    .usoCelular-content_description-ul {
+      padding-left: 2rem; }
+      .usoCelular-content_description-ul_li {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        text-align: justify; }
+        .usoCelular-content_description-ul_li--text {
+          margin-top: 1.2rem; }
+    .usoCelular-content_description-message {
+      color: #ada192;
+      font-size: 2rem;
+      text-align: center;
+      font-family: 'DINPro Bold';
+      padding: 0 2rem;
+      margin-top: 4.5rem; }
+    .usoCelular-content_description-excersice {
+      margin-top: 2rem; }
+      .usoCelular-content_description-excersice_title {
+        color: #000;
+        font-family: "DINPro Bold";
+        font-size: 1.6rem; }
+    .usoCelular-content_description-square {
+      margin-top: 3.5rem;
+      box-sizing: content-box;
+      border-radius: 29px;
+      background-color: #535ff2;
+      padding: 8px; }
+      .usoCelular-content_description-square_text {
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1.3rem 80px;
+        border-radius: 29px;
+        font-family: 'DINPro Light';
+        border: 1px solid #FFF;
+        text-align: center; }
+
+.claroTips-container {
+  height: 100%;
+  background-image: url(./img/svg/claroTipsBgP1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom; }
+
+.claroTips-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%; }
+  .claroTips-content_graphic {
+    flex: 1 0 45%;
+    text-align: right; }
+    .claroTips-content_graphic-mark {
+      background-image: url(./img/svg/claroTipsPage3-Bg.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      width: 87%;
+      padding: 6rem 0;
+      position: relative; }
+      .claroTips-content_graphic-mark img.claroTips-content_graphic-img {
+        width: 45%;
+        position: relative;
+        bottom: -100px;
+        left: -278px; }
+    .claroTips-content_graphic-markPage4 {
+      background-image: url(./img/svg/claroTipsPage4-Bg.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center top;
+      width: 80%;
+      position: relative; }
+      .claroTips-content_graphic-markPage4 img.claroTips-content_graphic-img {
+        width: 34%;
+        position: relative;
+        bottom: -45px; }
+    .claroTips-content_graphicPage2 {
+      background-image: url(./img/svg/circle-transparent-lines.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 100%; }
+      .claroTips-content_graphicPage2 img {
+        width: 60%;
+        align-self: flex-end; }
+    .claroTips-content_graphicPage3 {
+      background-image: url(./img/svg/circle-transparent-lines.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+    .claroTips-content_graphic-img {
+      width: 74%; }
+      .claroTips-content_graphic-img img {
+        width: 60%;
+        align-self: flex-end; }
+    .claroTips-content_graphic-notCheck {
+      position: absolute;
+      width: 12%;
+      right: 16%;
+      top: 8%; }
+    .claroTips-content_graphic-CheckP3 {
+      position: absolute;
+      width: 14%;
+      top: -9%; }
+  .claroTips-content_description {
+    flex: 0 1 45%; }
+    .claroTips-content_description-title {
+      color: #ee404c;
+      font-family: 'DINPro Bold';
+      font-size: 2.2rem; }
+    .claroTips-content_description-text {
+      font-family: 'DINPro light';
+      color: #2d1e1b;
+      font-size: 1.6rem;
+      margin-top: 1rem; }
+    .claroTips-content_description-ul {
+      padding-left: 2rem; }
+      .claroTips-content_description-ul_li {
+        font-family: 'DINPro light';
+        color: #2d1e1b;
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        text-align: left; }
+        .claroTips-content_description-ul_li--text {
+          margin-top: 1.2rem; }
+    .claroTips-content_description-cntSubtitle {
+      margin: 2rem 0;
+      padding: .5rem 0;
+      background-image: url(./img/svg/claroTipsFndTitle.svg);
+      background-size: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align: center; }
+      .claroTips-content_description-cntSubtitle_subtitle {
+        color: #FFF;
+        font-family: 'DINPro Bold';
+        font-size: 2.2rem; }
+      .claroTips-content_description-cntSubtitlePage2 {
+        opacity: .5; }
+        .claroTips-content_description-cntSubtitlePage2 p {
+          color: red; }
+
+.navigation-bottom {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem; }
+
+.navigation-bottom_content {
+  display: flex; }
+
+.navigation-bottom_link {
+  text-align: center;
+  width: 68px; }
+  .navigation-bottom_link:first-child {
+    margin-right: 30px; }
+  .navigation-bottom_link:active {
+    transform: scale(0.9); }
+
+.navigation-bottom_link-img {
+  width: 100%;
+  transition: .5s all ease-in-out; }
+  .navigation-bottom_link-img:hover {
+    opacity: .7; }
+
+.triangule {
+  background-image: url(img/svg/triangleRightMorado.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; }
+
+.hojaBottom {
+  background-image: url(img/svg/hojaBottomPurpura.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 13%; }
+
+.trianguleHoja {
+  background-image: url(img/svg/hojaRightPurpura.svg), url(img/svg/triangleLeftMorado.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom, left 96%;
+  background-size: 12.5%, 8%;
+  height: 100%; }
+
+  .antebrazoExtremidadSuperior-content{
+    align-items: center;
+  }
+
+  .codExtremidadSuperior-content{
+    align-items: center;
+  }
+
+  .muniecaExtremidad-content{
+    align-items: center;
+  }
+
+  .activaExtremidadS-content{
+    align-items: center;
+  }
+
+  
+
+
+  @media screen and (max-width: 1400px) {
+    .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title {
+    font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-subTitle, .codExtremidadSuperior-content_description-subTitle, .antebrazoExtremidadSuperior-content_description-subTitle, .muniecaExtremidad-content_description-subTitle, .cuidarExtremidades-content_description-subTitle {
+      font-size: 1.3rem;  
+    }
+    .extremidadSuperior-content_description-list_item, .codExtremidadSuperior-content_description-list_item, .antebrazoExtremidadSuperior-content_description-list_item, .muniecaExtremidad-content_description-list_item, .cuidarExtremidades-content_description-list_item {
+      font-size: 1.2rem;  
+    }
+    .extremidadSuperior-content_description-text, .codExtremidadSuperior-content_description-text, .antebrazoExtremidadSuperior-content_description-text, .muniecaExtremidad-content_description-text, .cuidarExtremidades-content_description-text {
+      font-size: 1.2rem;  
+    }
+    .extremidadSuperior-content_description-square_text, .codExtremidadSuperior-content_description-square_text, .antebrazoExtremidadSuperior-content_description-square_text, .muniecaExtremidad-content_description-square_text, .cuidarExtremidades-content_description-square_text {
+      font-size: 1.1rem;  
+    }
+    .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
+      margin-top: 3vw;
+    }
+    .cuidarExtremidades-content_description-title {
+      font-size: 1.6rem;
+    }
+    .cuidarExtremidades-content_description p{
+      font-size: 1.4rem;
+    }
+    .cuidarExtremidades-content_description li{
+      font-size: 1.2rem;
+    }   
+   .activaExtremidadS-content_graphic > img{
+     width: 50%;
+   }
+   .activaExtremidadS-content_description .activaExtremidadS-content_description-title{
+      font-size: 2rem;
+   }
+   .activaExtremidadS-content_description .activaExtremidadS-content_description-subTitle{
+    font-size: 1.4rem;
+   }
+   .activaExtremidadS-content_description li{
+    font-size: 1.3rem;
+   }
+   .activaExtremidadS-content_description-square_text--bgAll {
+      font-size: 1.5rem; 
+    }
+    .activaExtremidadS-content_description-ul_li--text {
+      font-size: 1.4rem; 
+   }
+   .img-cuidar-extremidades{
+    flex: 0 0 39%;
+   }
+   .antesDePracticar-img{
+    width: 45% !important;
+  }
+  .womenExtremidades {
+    width: 55% !important;
+ }
+   .mueve-extremidades{
+      width: 33% !important;
+    }
+    .mueve-extremidades-codo{
+      width: 35% !important;
+    }
+    .brazos-atras{
+      width: 38% !important;
+    }
+    .codos-arriba{
+      width: 38% !important;
+    }
+    .relajaExtremidadesS-content_description-title {
+      font-size: 2.4rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-textSmall {
+      font-size: 1.5rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice {
+      width: 120%;
+    }
+    .bandaElastica-content_description {
+      flex: 0 1 54%;
+      align-self: flex-start;
+    }
+    #bandaElastica{
+      flex: 0 1 27%;
+    }
+    /* #bandaElastica img{
+      width: 50% !important;
+    } */
+    #bandaElastica img.graphic-presentation{
+      width: 75%;
+    }
+    #bandaElastica img.graphic-presentation-2{
+      width: 82%;
+    }
+    .bandaElastica-content_description .bandaElastica-content_description-excersice_title{
+      font-size: 1.4rem;
+    }
+    .bandaElastica-content_description li{
+      font-size: 1.4rem;
+    }
+    .enTrabajoPage7 ul {
+      margin: 1rem 0;
+    }
+  }
+
+  @media screen and (min-width: 1700px) {
+    .conoceExtremidades-content_description-title {
+      font-size: 2.5rem;
+    }
+    .conoceExtremidades-content_description-text {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-title, .codExtremidadSuperior-content_description-title, .antebrazoExtremidadSuperior-content_description-title, .muniecaExtremidad-content_description-title, .cuidarExtremidades-content_description-title { 
+      font-size: 2.5rem;
+    }
+    .extremidadSuperior-content_description-list_item, .codExtremidadSuperior-content_description-list_item, .antebrazoExtremidadSuperior-content_description-list_item, .muniecaExtremidad-content_description-list_item, .cuidarExtremidades-content_description-list_item {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-text, .codExtremidadSuperior-content_description-text, .antebrazoExtremidadSuperior-content_description-text, .muniecaExtremidad-content_description-text, .cuidarExtremidades-content_description-text {
+      font-size: 1.8rem;
+    }
+    .extremidadSuperior-content_description-square_text, .codExtremidadSuperior-content_description-square_text, .antebrazoExtremidadSuperior-content_description-square_text, .muniecaExtremidad-content_description-square_text, .cuidarExtremidades-content_description-square_text {
+      font-size: 1.5rem;
+    }
+    .extremidadSuperior-content_graphic-antebrazo {
+      width: 38%;
+    }
+    .extremidadSuperior-content_description, .codExtremidadSuperior-content_description, .antebrazoExtremidadSuperior-content_description, .muniecaExtremidad-content_description, .cuidarExtremidades-content_description {
+      margin-top: 3vw;
+    }
+    .relajaExtremidadesS-content_description-title {
+      font-size: 2.6rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-textSmall {
+      font-size: 1.7rem;
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice{
+      width: 120%;
+    }
+    .relajaExtremidadesS-content_description-excersice p{
+      font-size: 2rem;
+    }
+    .relajaExtremidadesS-content_description-excersice li{
+      font-size: 1.9rem;
+    }
+    .relajaExtremidadesS-content_description-excersice_square p{
+      width: 100%;
+    }
+    .ejercitaExtremidades-content_description, .eligeGoma-content_description, .mantenMovimientos-content_description {
+      flex: 0 1 57%;
+      margin-left: -6vw;
+    }
+    .ejercitaExtremidades-content_description-text, .eligeGoma-content_description-text, .mantenMovimientos-content_description-text {
+      font-size: 1.8rem;
+    }
+    .activaExtremidadS-content_description {
+      margin-left: 4vw;
+    }
+    .bandaElastica-content_description {
+      flex: 0 1 70%;
+      margin-left: 10vw;
+    }
+    .bandaElastica-content_graphic img.graphic-presentation{
+      width: 90%;
+    }
+    .bandaElastica-content_graphic img.graphic-presentation-2{
+      width: 97%;
+    }
+    .bandaElastica-content_graphic {
+      flex: 0 1 70%;
+    }
+    .ejercitaExtremidades-content_graphic, .eligeGoma-content_graphic, .mantenMovimientos-content_graphic {
+      flex: 0 1 73%;
+      margin-right: -12vw;
+    }
+    #bandaElastica{
+      flex: 0 1 36%;
+    }
+  }
+
+
+   /*  @media screen and (max-width: 1260px) {
+      .cuidarExtremidades-content_description-title {
+        font-size: 1.5rem;
+      }
+      .cuidarExtremidades-content_description p{
+        font-size: 1.3rem;
+      }
+      .cuidarExtremidades-content_description li{
+        font-size: 1rem;
+      }
+
+    } */
+
+    
