@@ -1093,6 +1093,12 @@ body {
   #antesDePracticar .antes-practicar-img2{
     width: 32.05% !important;
   }
+  .women-mueve-img{
+    width: 70% !important;
+   }
+ .women-mueve-img2{
+  width: 64.4% !important;
+ }
 
 .relajaExtremidadesS-container {
   height: 100%;
@@ -1942,6 +1948,12 @@ body {
 		.antes-practicar-img2{
       width: 27% !important;
     }
+    .women-mueve-img{
+      width: 55% !important;
+     }
+   .women-mueve-img2{
+    width: 50.5% !important;
+   }
   }
 
   @media screen and (min-width: 1700px) {

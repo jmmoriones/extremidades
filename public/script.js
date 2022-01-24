@@ -150,6 +150,8 @@ exports.default = function () {
 	divElement.classList.add("activaExtremidadS-container");
 	divElement.innerHTML = (0, _activaExtremidadSPage3View2.default)();
 
+	var wMueve = divElement.querySelector("#women-mueve-extremidades");
+
 	document.body.style.backgroundColor = "#FFF";
 
 	nextPresentation.href = "#/activa-extremidad-page4";
@@ -163,6 +165,17 @@ exports.default = function () {
 		if (event.keyCode == 39) {
 			nextPresentation.click();
 		}
+	}, false);
+
+	divElement.querySelector("#women-mueve-extremidades").addEventListener("mouseout", function () {
+		wMueve.classList.remove("women-mueve-img2");
+		wMueve.classList.add("women-mueve-img");
+		wMueve.src = "./img/svg/womenMueveExtremidades.svg";
+	}, false);
+	divElement.querySelector("#women-mueve-extremidades").addEventListener("mouseover", function (e) {
+		wMueve.classList.remove("women-mueve-img");
+		wMueve.classList.add("women-mueve-img2");
+		wMueve.src = "./img/svg/womenMueveExtremidades2.svg";
 	}, false);
 
 	return divElement;
@@ -3238,7 +3251,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-	return "\n\t\t<div class=\"activaExtremidadS-content container-content_slide\">\n\t\t\t<div class=\"activaExtremidadS-content_graphic\">\n\t\t\t\t<a href=\"#\" id=\"audioQueEsActivate\" class=\"activaExtremidadS-content_graphic-audio animate__animated animate__fadeIn animate__delay-1s\">\n\t\t\t\t\t<img src=\"img/svg/soundButton2.svg\" />\n\t\t\t\t</a>\n\t\t\t\t<img src=\"img/svg/womenMueveExtremidades.svg\" class=\"animate__animated animate__backInLeft animate__delay-1s\" />\n\t\t\t</div>\n\t\t\t<div class=\"activaExtremidadS-content_description\">\n\t\t\t\t<p class=\"activaExtremidadS-content_description-title animate__animated animate__backInRight animate__delay-2s\">MUEVE TUS EXTREMIDADES SUPERIORES</p>\n\t\t\t\t<p class=\"activaExtremidadS-content_description-ul_li activaExtremidadS-content_description-ul_li--text animate__animated animate__backInRight animate__delay-3s\">Recuerda iniciar con ejercicios de movilidad articular</p>\n\t\t\t\t<p class=\"activaExtremidadS-content_description-subTitle animate__animated animate__backInRight animate__delay-3s\">\xA1No olvides <b>controlar tu respiraci\xF3n!</b></p>\n\t\t\t\t<div class=\"activaExtremidadS-content_description-square activaExtremidadS-content_description-square--bgAll animate__animated animate__bounceIn animate__delay-4s\">\n\t\t\t\t\t<p class=\"activaExtremidadS-content_description-square_text activaExtremidadS-content_description-square_text--bgAll\">Realiza de <b>5 a 10 repeticiones</b><br/> de cada uno.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t";
+	return "\n\t\t<div class=\"activaExtremidadS-content container-content_slide\">\n\t\t\t<div class=\"activaExtremidadS-content_graphic\">\n\t\t\t\t<a href=\"#\" id=\"audioQueEsActivate\" class=\"activaExtremidadS-content_graphic-audio animate__animated animate__fadeIn animate__delay-1s\">\n\t\t\t\t\t<img src=\"img/svg/soundButton2.svg\" />\n\t\t\t\t</a>\n\t\t\t\t<img id=\"women-mueve-extremidades\" src=\"img/svg/womenMueveExtremidades.svg\" class=\"animate__animated animate__backInLeft animate__delay-1s\" />\n\t\t\t</div>\n\t\t\t<div class=\"activaExtremidadS-content_description\">\n\t\t\t\t<p class=\"activaExtremidadS-content_description-title animate__animated animate__backInRight animate__delay-2s\">MUEVE TUS EXTREMIDADES SUPERIORES</p>\n\t\t\t\t<p class=\"activaExtremidadS-content_description-ul_li activaExtremidadS-content_description-ul_li--text animate__animated animate__backInRight animate__delay-3s\">Recuerda iniciar con ejercicios de movilidad articular</p>\n\t\t\t\t<p class=\"activaExtremidadS-content_description-subTitle animate__animated animate__backInRight animate__delay-3s\">\xA1No olvides <b>controlar tu respiraci\xF3n!</b></p>\n\t\t\t\t<div class=\"activaExtremidadS-content_description-square activaExtremidadS-content_description-square--bgAll animate__animated animate__bounceIn animate__delay-4s\">\n\t\t\t\t\t<p class=\"activaExtremidadS-content_description-square_text activaExtremidadS-content_description-square_text--bgAll\">Realiza de <b>5 a 10 repeticiones</b><br/> de cada uno.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t";
 };
 
 },{}],71:[function(require,module,exports){
